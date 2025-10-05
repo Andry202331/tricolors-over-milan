@@ -1,0 +1,33 @@
+id=fra_mar_annex
+title=The annexation of Morocco
+desc=We have defeated the Moroccan nation.
+
+image=marocco.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=fra
+next_and
+is_civ=fra_p
+next_and
+not_exists=mor_m
+trigger_and_end
+
+option_btn
+name=Oui!
+ai=100
+add_variable2=spa_m=morocco_annexed
+add_variable2=por_m=morocco_annexed
+add_variable2=ger_m=morocco_annexed
+run_event=spa_reaction_mar
+run_event=ger_reaction_mar
+run_event=por_reaction_mar
+run_event=fra_mar_revolts
+option_end

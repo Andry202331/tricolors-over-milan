@@ -1,0 +1,51 @@
+{
+	Overlay: [
+		{
+			Tile: "plains_tile.png",
+			Mask: "plains_mask.png",
+			Scale: 0.02,
+			Alpha: 0.004,
+			AlphaScaleZoomOut: 0.025,
+			AlphaScale: 0.04,
+			ExtraColor: 1.65,
+		},
+		{
+			Tile: "farm_tile.png",
+			Mask: "farm_mask.png",
+			Scale: 0.015,
+			Alpha: 0.0175,
+			AlphaScaleZoomOut: 0.025,
+			AlphaScale: 0.03,
+			ExtraColor: 1.45,
+		},
+		{
+			Tile: "forest_tile.png",
+			Mask: "forest_mask.png",
+			Scale: 0.02,
+			Alpha: 0.04,
+			AlphaScaleZoomOut: 0.05,
+			AlphaScale: 0.022,
+			ExtraColor: 1.7,
+		},
+		{
+			Tile: "desert_tile.png",
+			Mask: "desert_mask.png",
+			Scale: 0.03,
+			Alpha: 0.07,
+			AlphaScaleZoomOut: 0.045,
+			AlphaScale: 0.0305,
+			ExtraColor: 1.25,
+		},
+		{
+			Tile: "mountains_tile.png",
+			Mask: "mountains_mask.png",
+			Scale: 0.02,
+			Alpha: 0.023,
+			AlphaScaleZoomOut: 0.125,
+			AlphaScale: 0.0215,
+			ExtraColor: 1.1,
+		},
+	],
+	
+	Age_of_History: Overlay
+}

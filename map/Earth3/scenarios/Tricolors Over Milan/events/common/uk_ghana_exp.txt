@@ -1,0 +1,32 @@
+id=uk_ghana_exp
+title=Conquer Ghana
+desc=We are ready for an offensive war against the Ashanti tribe
+
+image=ita_col.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=uni
+next_and
+is_civ=uni_m
+next_and
+civs_are_not_at_war=uni_m=asha
+next_and
+year_over=1867
+trigger_and_end
+
+option_btn
+name=Charge!
+ai=100
+gold=-100
+declare_war=asha
+add_variable2=ger=uk_ghana_expansion
+annex_by_civ_from_civ=ewe3=asha=4630;2464;4638;2465;2463;4639;2466;
+option_end

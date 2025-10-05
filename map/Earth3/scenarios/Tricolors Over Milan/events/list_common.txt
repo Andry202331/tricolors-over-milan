@@ -1,0 +1,1 @@
+the_great_city_fire;welcome;welcome2;aus_assimilation;aus_autonomy;aus_situation;fra_col;fra_defeat_unrest;fra_ger_complaint;fra_mar_annex;fra_mar_revolts;fra_por_complaint;fra_sah;fra_spa_compensation;fravsmar;ger_reaction_mar;mar_revolts;por_reaction_mar;spa_reaction_mar

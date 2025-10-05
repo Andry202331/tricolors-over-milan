@@ -1,0 +1,43 @@
+id=ita_colonies2
+title=New colonial settlements
+desc=With the decision to venture out to discover new colonization opportunities, the question now is where should we focus our efforts?
+
+image=veliero.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ita
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=Horn of Africa
+ai=25
+run_event=ita_horn
+option_end
+
+option_btn
+name=Egypt
+ai=25
+run_event=ita_egy
+option_end
+
+option_btn
+name=Zanzibar
+ai=25
+run_event=ita_zanz
+option_end
+
+option_btn
+name=Gulf of Guinea
+ai=25
+run_event=ita_guinea
+option_end

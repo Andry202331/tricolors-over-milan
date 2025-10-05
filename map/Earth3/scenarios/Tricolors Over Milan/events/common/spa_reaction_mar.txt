@@ -1,0 +1,28 @@
+id=spa_reaction_mar
+title=The French conquer Morocco!
+desc=Morocco has fallen to French forces! Completely disregarding our interests in the region!
+
+image=marocco.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=fra
+next_and
+is_civ=spa_m
+next_and
+has_variable=morocco_annexed
+trigger_and_end
+
+option_btn
+name=Send a letter of complaint
+ai=100
+add_variable2=fra_p=spa_complain
+run_event=fra_spa_compensation
+option_end

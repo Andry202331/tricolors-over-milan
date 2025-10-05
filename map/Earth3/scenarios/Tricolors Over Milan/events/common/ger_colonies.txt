@@ -1,0 +1,46 @@
+id=ger_colonies
+title=Colonial settlements in Africa
+desc=Our empire is currently lacking behind in terms of colonies. Africa is one of the continents that is still mostly unclaimed by European powers. The recent French conquest of Morocco sparked interest in German colonial settlements in the continent. We should begin our efforts by first deciding what are our ambitions.
+
+image=ger_col.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ger
+next_and
+is_civ=ger_m
+trigger_and_end
+trigger_or
+next_or
+year_over=1865
+next_or
+has_variable=french_colonial_support
+trigger_or_end
+
+option_btn
+name=Historical ambitions (Togo, Camerun, Namibia, Tanzania)
+ai=50
+run_event=ger_colonies_historical
+add_variable=historical_colonies
+option_end
+
+option_btn
+name=Closer colonies (Togo, Camerun)
+ai=35
+run_event=ger_colonies_close
+add_variable=closer_colonies
+option_end
+
+option_btn
+name=Big ambitions (Togo, Camerun, Congo, Namibia, Tanzania, Kenya)
+ai=15
+run_event=ger_colonies_big
+add_variable=big_ambition_colonies
+option_end

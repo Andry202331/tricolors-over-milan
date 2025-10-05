@@ -1,0 +1,39 @@
+id=brivshol
+title=Colonial competition in Ghana
+desc=Our colonial ambitions in Ghana are currently threatened by the Danish and the Dutch. We should resolve this issue, and we have 2 ways to do so: on one hand, our advisors suggested us a diplomatic solution, where we approach the Dutch with an offer. This offer consists of them giving us their possessions in Ghana in exchange for support for them getting a new treaty port in the Atlantic coast of Africa in the future. On the other hand, we could just send them an ultimatum. Our army is far superior than the Dutch's is, so the intimidation might just be enough.
+
+image=west_africa.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exact_day=27=3=1866
+next_and
+exists_any=net
+next_and
+is_civ=uni_m
+next_and
+province_controlled_by=2414=net_m
+next_and
+province_controlled_by=2415=uni_m
+trigger_and_end
+
+option_btn
+name=Approach them diplomatically
+ai=50
+add_variable2=net_m=bri_ghana_peac
+run_event=ghana_hol_response
+option_end
+
+option_btn
+name=Approach them with an ultimatum
+ai=50
+add_variable2=net_m=bri_ghana_ult
+run_event=ghana_hol_ult
+option_end

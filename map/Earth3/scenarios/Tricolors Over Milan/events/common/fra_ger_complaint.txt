@@ -1,0 +1,39 @@
+id=fra_ger_complaint
+title=The Germans denounce our annexation of Morocco!
+desc=The decision to attack Morocco has caused uproar between other European nations. Germany denounces our conquest due to their colonial ambitions in the region. How should we respond?
+
+image=3.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ger
+next_and
+is_civ=fra
+next_and
+has_variable=ger_complain
+next_and
+has_variable=spain_complaint_resolved
+next_and
+has_variable=por_complaint_resolved
+trigger_and_end
+
+option_btn
+name=We can support their other colonial ambitions 
+ai=30
+relations_change=fra=ger_m=15
+run_event=ger_colonies
+add_variable2=ger_m=french_colonial_support
+option_end
+
+option_btn
+name=They will get nothing at all!
+ai=70
+relations_set=ger_m=fra=-50
+option_end

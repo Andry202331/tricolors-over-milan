@@ -1,0 +1,31 @@
+id=ita_sou_mar
+title=Market Strategy
+desc=We need to decide which strategy we want to use for our economical growth in the South: exporting or autarchy?
+
+image=90.png
+
+show_in_missions=false
+mission_image=8
+
+only_once=true
+
+trigger_and
+next_and
+has_variable=Sicilian_farms
+next_and
+civ_is_not_at_war=true
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=We shall focus on exporting!
+ai=50
+add_variable=Export_focus
+option_end
+
+option_btn
+name=We shall focus on self-reliance!
+ai=50
+add_variable=Autarchy_focus
+option_end

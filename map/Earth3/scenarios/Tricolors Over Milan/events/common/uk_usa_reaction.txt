@@ -1,0 +1,35 @@
+id=uk_usa_reaction
+title=Reaction to the American Civil War
+desc=A full scale Civil War has begun in the United States, who should we support?
+
+image=usa_civ_war_reaction.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=uni
+next_and
+is_civ=uni_m
+trigger_and_end
+
+option_btn
+name=The Union
+ai=50
+add_guarantee=uni_m=usa
+add_general=true
+advantage_points=1
+option_end
+
+option_btn
+name=The Confederates
+ai=50
+add_guarantee=uni_m=conf
+add_general=true
+advantage_points=1
+option_end

@@ -1,0 +1,31 @@
+id=ger_zanz
+title=Our first colonial port
+desc=Zanzibar was chosen as our next objective in terms of colonial expansion, a controversial decision to say the least due to the presence of the Zanzibar Sultanate, a puppet of Oman. Our explorers need your guidance to pick the best possible place to start a trading port and eventually expand it into a settlement.
+
+image=tanzania.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ger
+next_and
+is_civ=ger_m
+trigger_and_end
+
+option_btn
+name=We will settle South, near Mozambique
+ai=50
+annex=3890
+option_end
+
+option_btn
+name=We will settle near the Zanzibar islands
+ai=50
+annex=3888
+option_end

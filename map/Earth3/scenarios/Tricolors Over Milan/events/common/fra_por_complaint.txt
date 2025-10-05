@@ -1,0 +1,45 @@
+id=fra_por_complaint
+title=Portuguese denounce our annexation of Morocco!
+desc=The decision to attack Morocco has caused uproar between other European nations. Portugal denounces our conquest as unfair to their commercial interest there, since we killed one of their trading partners. How should we respond?
+
+image=3.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=por
+next_and
+is_civ=fra_p
+next_and
+has_variable=por_complain
+next_and
+has_variable=spain_complaint_resolved
+trigger_and_end
+
+option_btn
+name=They can have a treaty port near Casablanca
+ai=40
+annex_by_civ_from_civ=por_m=fra_p=2922;
+relations_change=fra=por_m=15
+add_variable=por_complaint_resolved
+option_end
+
+option_btn
+name=We can give them advantegeous trading rights in Morocco
+ai=50
+add_military_access=por_m=fra_p
+add_variable=por_m_complaint_resolved
+option_end
+
+option_btn
+name=They will get nothing at all!
+ai=10
+relations_set=por_m=fra_p=-50
+add_variable=por_complaint_resolved
+option_end

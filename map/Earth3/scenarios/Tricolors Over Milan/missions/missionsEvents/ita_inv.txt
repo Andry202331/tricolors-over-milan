@@ -1,0 +1,31 @@
+id=ita_inv
+title=Asking for foreign investment
+desc=To further increase our economy, we should be open to accept foreign investment.
+
+image=3.png
+
+show_in_missions=false
+mission_image=8
+
+only_once=true
+
+trigger_and
+next_and
+has_variable=Industrialize
+next_and
+exists_any=ger_m
+next_and
+exists_any=eng_m
+next_and
+exists_any=fra_m
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=Let's see our options
+ai=100
+add_variable=Ask_france
+add_variable=Ask_britain
+add_variable=Ask_germany
+option_end

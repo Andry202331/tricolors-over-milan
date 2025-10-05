@@ -1,0 +1,33 @@
+id=Leaderdeath
+title=our leader has been killed!
+desc=Our leader has been assasinated today. a devistating loss for our Country but Maybe this is for the best. Maybe not. our economic advisor has been killed aswell. our other advisor to but we could save him.
+
+image=assasinated leader.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+random_chance=4.0
+civ_capital_unrest_over=4.0
+trigger_and_end
+
+option_btn
+name=we cant take Action Right now.
+ai=50
+province_unrest_all=35.0
+kill_ruler=true
+kill_advisor=1
+option_end
+
+option_btn
+name=we Need to strike back but let our advisor die...!
+ai=50
+province_unrest_all=15.0
+kill_advisor=1
+kill_advisor=3
+kill_ruler=true
+option_end

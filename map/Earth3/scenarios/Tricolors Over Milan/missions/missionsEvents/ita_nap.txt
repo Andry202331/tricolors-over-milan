@@ -1,0 +1,32 @@
+id=ita_nap
+title=The University of Naples
+desc=Naples is the biggest city in the South, by improving and modernizing their University, we could greatly improve the situation.
+
+image=62.png
+
+show_in_missions=false
+mission_image=8
+
+only_once=true
+
+trigger_and
+next_and
+has_variable=Southern_modernization
+next_and
+administrative_buildings_constructed_over=5
+next_and
+civ_gold_over=500
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=Renovate that building!
+ai=100
+gold=-500
+province_growth_rate_id=196=1.0
+province_tax_efficiency_id=196=0.5
+province_infrastructure_id=196=1
+province_unrest_id=196=-1.0
+add_variable=Naples_uni
+option_end

@@ -1,0 +1,32 @@
+id=rusvsotto
+title=Our main rival
+desc=Focusing on the Ottoman Empire is likely the best option, if we can defeat our main rival once and for all, we might dominate the Black Sea, Persia and the Balkans!
+
+image=impero_ottomano.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=rus
+next_and
+exists_any=tur
+next_and
+is_civ=rus2_m
+trigger_and_end
+
+option_btn
+name=Sounds good to me! (WIP)
+ai=99
+option_end
+
+option_btn
+name=Nevermind (returns to choosing fronts)
+ai=1
+run_event=rus_situation
+option_end

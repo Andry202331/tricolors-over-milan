@@ -1,0 +1,8 @@
+{
+	Name: "Tricolors Over Milan",
+	Description: "This item will add a new Scenario",
+	
+	Tags: [ "Scenario", "Alternative History", "Cities", "Events", "Loading Background", "Music", "Fonts", "Graphic", "Scenario Events", "UI", "Missions", ],
+	
+	ChangeNote: "Version 0.4.2",
+}

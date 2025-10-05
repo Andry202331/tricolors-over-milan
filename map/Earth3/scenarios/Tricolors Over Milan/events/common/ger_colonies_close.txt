@@ -1,0 +1,32 @@
+id=ger_colonies_close
+title=Scouting settlement spots
+desc=We need to decide where exactly we want to set in. (WARNING: if there are already other nation's settlements in one of the regions, the choice is a dead end and you will not be able to continue.)
+
+image=ger_col.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ger
+next_and
+is_civ=ger_m
+has_variable=closer_colonies
+trigger_and_end
+
+option_btn
+name=Togo first
+ai=50
+run_event=ger_togo
+option_end
+
+option_btn
+name=Camerun first
+ai=50
+run_event=ger_camerun
+option_end

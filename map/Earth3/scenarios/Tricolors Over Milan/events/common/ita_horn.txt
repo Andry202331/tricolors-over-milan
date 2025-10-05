@@ -1,0 +1,43 @@
+id=ita_horn
+title=Our first colonial port
+desc=The Horn of Africa was chosen as our next objective in terms of colonial expansion, a controversial decision to say the least due to the presence of powerful foes such as Abyssinia. Our explorers need your guidance to pick the best possible place to start a trading port and eventually expand it into a settlement.
+
+image=corno.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ita
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=We will settle North, in Eritrea
+ai=33
+annex=4360
+option_end
+
+option_btn
+name=We will settle South, in Somalia
+ai=33
+annex=3915
+option_end
+
+option_btn
+name=We will settle in the Gate of Grief strait
+ai=33
+annex=4362
+option_end
+
+option_btn
+name=Nevermind (returns to choosing the region)
+ai=1
+run_event=ita_colonies2
+option_end

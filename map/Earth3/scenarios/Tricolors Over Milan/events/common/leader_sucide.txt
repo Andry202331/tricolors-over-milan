@@ -1,0 +1,22 @@
+id=Leadersucide
+title=Leader comited Sucide 
+desc=today we have received News that our leader has comited sucide that is the latest Information we have.
+mission_desc=our leader comited sucide.
+
+image=sucideruler.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+random_chance=0.8
+trigger_and_end
+
+option_btn
+name=there is Nothing we can do.
+ai=100
+kill_ruler=true
+option_end

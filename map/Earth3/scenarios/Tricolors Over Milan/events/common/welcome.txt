@@ -1,0 +1,23 @@
+id=welcome1
+title=Welcome to Tricolors Over Milan!
+desc=Thank you for choosing to play AoH3 with my mod, Tricolors Over Milan! This is the first mod i have made, so sorry for eventual errors and mistakes, but I'm going on by trial and error sometimes and that could slow down development times, so I would very much appreciate a hand and I'll be glad if someone offers to help with developing!
+
+image=TOM_logo.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exact_day=2=1=1861
+trigger_and_end
+
+option_btn
+name=I understand
+ai=100
+run_event=welcome2
+option_end

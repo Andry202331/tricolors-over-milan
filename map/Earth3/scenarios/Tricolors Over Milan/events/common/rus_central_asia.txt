@@ -1,0 +1,36 @@
+id=rus_central_asia
+title=The Khedivates of Central Asia
+desc=The Khedivates of Central Asia have been left alone for enough time! It's time to dominate the region!
+
+image=impero_russo_est.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=rus
+next_and
+exists_any=khiv
+next_and
+exists_any=kbu
+next_and
+exists_any=koka
+next_and
+is_civ=rus_m
+trigger_and_end
+
+option_btn
+name=Sounds good to me! (WIP)
+ai=99
+option_end
+
+option_btn
+name=Nevermind (returns to choosing fronts)
+ai=1
+run_event=rus_situation
+option_end

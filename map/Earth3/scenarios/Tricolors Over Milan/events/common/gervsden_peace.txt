@@ -1,0 +1,35 @@
+id=amsterdam_treaty
+title=The treaty of Amsterdam
+desc=Denmark has retreated from the clash. We can reclaim our lands!
+
+image=ger_dan_pace.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ger
+next_and
+is_civ=ger_m
+next_and
+exact_day=12=7=1864
+trigger_and_end
+next_or
+has_variable=danish_surrender
+trigger_or_end
+
+option_btn
+name=Annex Schleswig-Holstein
+ai=100
+annex_civ=hols
+annex_civ=scch
+annex=2252
+manpower=2985
+add_truce=ger_m=den
+add_variable=won_against_denmark
+option_end

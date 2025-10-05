@@ -1,0 +1,37 @@
+id=ghana_hol_ult
+title=Colonial competition in Ghana
+desc=Our colonial ambitions in Ghana are currently threatened by the UK. They have sent us an ultimatum demanding we give them our possesions in the region, otherwhise it will be war!
+
+image=west_africa.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=uni
+next_and
+is_civ=net_m
+next_and
+province_controlled_by=2414=net_m
+next_and
+province_controlled_by=2415=uni_m
+next_and
+has_variable=bri_ghana_ult
+trigger_and_end
+
+option_btn
+name=Surrender to them!
+ai=50
+add_variable2=uni_m=net_ghana_sur
+run_event=bri_hol_response_sur
+option_end
+
+option_btn
+name=Never! (WIP)
+ai=50
+option_end

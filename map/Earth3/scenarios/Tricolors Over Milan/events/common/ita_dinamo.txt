@@ -1,0 +1,27 @@
+id=ita_dinamo
+title=Antonio Pacinotti's dynamo
+desc=A year ago, Italian scientist Antonio Pacinotti created the first prototype of a dyanamo, using studies from British scientist Michael Faraday. It uses a ring armature around which is wrapped a coil of wire, to produce a smoother current than that available from previous types of dynamo. He found that the device could also be used as an electric motor! We still have to see how this creation will influence the world...
+
+image=Dinamo_di_Pacinotti.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=ita
+next_and
+is_civ=ita_m
+next_and
+exact_day=1=2=1861
+trigger_and_end
+
+option_btn
+name=Un colpo di fulmine geniale!
+ai=100
+research=1000
+option_end

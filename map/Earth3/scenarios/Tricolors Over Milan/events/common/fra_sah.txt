@@ -1,0 +1,30 @@
+id=fra_sah
+title=The quest to connect with Senegal and the Gold Coast
+desc=The Sahara, altho just a desert, is vital to connect our colonies and realise our colonial ambitions of an empire covering West Africa
+
+image=fra_col.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=fra
+next_and
+is_civ=fra
+next_and
+exact_day=3=5=1862
+next_and
+has_variable=sahara_expansion
+trigger_and_end
+
+option_btn
+name=Allons!
+ai=100
+declare_war=tuat3
+declare_war=ahag3
+option_end

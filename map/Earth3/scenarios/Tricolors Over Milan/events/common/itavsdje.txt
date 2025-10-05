@@ -1,0 +1,33 @@
+id=itavsdje
+title=Liberate Tunisia
+desc=We are ready for an offensive war against the Ghadames Kingdom
+
+image=ita_col.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ita
+next_and
+is_civ=ita_m
+next_and
+has_variable_not=find_another_place
+next_and
+civs_are_not_at_war=ita_m=dje_m
+next_and
+exact_day=17=4=1861
+trigger_and_end
+
+option_btn
+name=Avanzare!
+ai=100
+gold=-100
+declare_war=dje_m
+add_variable2=fra=ita_col_expansion
+option_end

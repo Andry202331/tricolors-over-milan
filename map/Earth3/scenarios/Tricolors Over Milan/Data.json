@@ -1,0 +1,2107 @@
+[
+{
+	CivTAG: "den_m",
+	CivID: 1,
+	PCID: 1,
+	CPID: 965,
+	Legacy: 500,
+	TechnologyID: 57,
+	Population: 1725000,
+	TaxEff: 70,
+	CCL: 2,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "scch_m",
+	CivID: 2,
+	PCID: 1,
+	CPID: 2245,
+	TechnologyID: 57
+},
+{
+	CivTAG: "hols_m",
+	CivID: 3,
+	PCID: 1,
+	CPID: 600,
+	TechnologyID: 57
+},
+{
+	CivTAG: "bel_m",
+	CivID: 4,
+	PCID: 4,
+	CPID: 832,
+	Legacy: 200,
+	TechnologyID: 57,
+	Population: 5000000,
+	TaxEff: 60,
+	CCL: 2,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "net_m",
+	CivID: 5,
+	PCID: 5,
+	CPID: 6502,
+	Legacy: 600,
+	TechnologyID: 57,
+	Population: 4000000,
+	TaxEff: 75,
+	CCL: 3,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "lux_m",
+	CivID: 6,
+	PCID: 6,
+	CPID: 379,
+	TechnologyID: 57
+},
+{
+	CivTAG: "crac_q",
+	CivID: 7,
+	PCID: 8,
+	CPID: 464,
+	TechnologyID: 43
+},
+{
+	CivTAG: "atr_m",
+	CivID: 8,
+	PCID: 8,
+	CPID: 688,
+	Legacy: 200,
+	TechnologyID: 48,
+	Population: 30500000,
+	TaxEff: 40,
+	CCL: 3,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 2
+},
+{
+	CivTAG: "mo_m",
+	CivID: 9,
+	PCID: 15,
+	CPID: 6626,
+	TechnologyID: 40,
+	Population: 1300000
+},
+{
+	CivTAG: "wala_m",
+	CivID: 10,
+	PCID: 15,
+	CPID: 473,
+	TechnologyID: 40
+},
+{
+	CivTAG: "ser_m",
+	CivID: 11,
+	PCID: 15,
+	CPID: 1431,
+	TechnologyID: 40
+},
+{
+	CivTAG: "monq_m",
+	CivID: 12,
+	PCID: 15,
+	CPID: 6886,
+	TechnologyID: 40
+},
+{
+	CivTAG: "gre_m",
+	CivID: 13,
+	PCID: 13,
+	CPID: 2202,
+	Legacy: 3000,
+	TechnologyID: 40,
+	Population: 1200000,
+	TaxEff: 10,
+	CCL: 3,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "ion3_m",
+	CivID: 14,
+	PCID: 275,
+	CPID: 2228
+},
+{
+	CivTAG: "tur_m",
+	CivID: 15,
+	PCID: 15,
+	CPID: 1116,
+	Legacy: 2000,
+	TechnologyID: 41,
+	Population: 24000000,
+	TaxEff: 20,
+	CCL: 3,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "egyo_m",
+	CivID: 16,
+	PCID: 16,
+	CPID: 2669,
+	TechnologyID: 37,
+	Population: 8000000
+},
+{
+	CivTAG: "hejz_m",
+	CivID: 17,
+	PCID: 15,
+	CPID: 5005,
+	TechnologyID: 39
+},
+{
+	CivTAG: "fin2",
+	CivID: 18,
+	PCID: 276,
+	CPID: 1461,
+	TechnologyID: 45,
+	Population: 1500000,
+	TaxEff: 20
+},
+{
+	CivTAG: "nor_m",
+	CivID: 19,
+	PCID: 235,
+	CPID: 1009,
+	TechnologyID: 57,
+	Population: 18000000
+},
+{
+	CivTAG: "spa_m",
+	CivID: 20,
+	PCID: 20,
+	CPID: 6561,
+	Legacy: 1000,
+	TechnologyID: 51,
+	Population: 16000000,
+	TaxEff: 35,
+	CCL: 2,
+	MAL: 2,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "por_m",
+	CivID: 21,
+	PCID: 21,
+	CPID: 11,
+	Legacy: 900,
+	TechnologyID: 51,
+	Population: 6400000,
+	TaxEff: 40,
+	CCL: 2,
+	MAL: 2,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "mor_m",
+	CivID: 22,
+	PCID: 22,
+	CPID: 2927,
+	TechnologyID: 39,
+	Population: 3300000
+},
+{
+	CivTAG: "fra_p",
+	CivID: 23,
+	PCID: 23,
+	CPID: 260,
+	Legacy: 800,
+	TechnologyID: 57,
+	Population: 37386000,
+	TaxEff: 60,
+	CCL: 4,
+	MAL: 3,
+	MAGL: 2,
+	SCL: 2
+},
+{
+	CivTAG: "moc_m",
+	CivID: 24,
+	PCID: 240,
+	CPID: 134,
+	TechnologyID: 43
+},
+{
+	CivTAG: "san_m",
+	CivID: 25,
+	PCID: 240,
+	CPID: 181,
+	TechnologyID: 43
+},
+{
+	CivTAG: "mex_p",
+	CivID: 26,
+	PCID: 26,
+	CPID: 2376,
+	Legacy: 700,
+	TechnologyID: 45,
+	Population: 7000000,
+	TaxEff: 30,
+	CCL: 2,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "bra_n",
+	CivID: 27,
+	PCID: 27,
+	CPID: 1970,
+	Legacy: 300,
+	TechnologyID: 45,
+	Population: 45000000,
+	TaxEff: 25,
+	CCL: 2,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "uru_p",
+	CivID: 28,
+	PCID: 28,
+	CPID: 3408,
+	TechnologyID: 37
+},
+{
+	CivTAG: "par_p",
+	CivID: 29,
+	PCID: 29,
+	CPID: 7716,
+	TechnologyID: 37,
+	Population: 3800000
+},
+{
+	CivTAG: "arg2_w",
+	CivID: 30,
+	PCID: 30,
+	CPID: 7727,
+	Legacy: 300,
+	TechnologyID: 45,
+	TaxEff: 35
+},
+{
+	CivTAG: "trra_n",
+	CivID: 31,
+	PCID: 33,
+	CPID: 1474,
+	TechnologyID: 39
+},
+{
+	CivTAG: "myso_m",
+	CivID: 32,
+	PCID: 33,
+	CPID: 5532,
+	TechnologyID: 39,
+	Population: 2600000
+},
+{
+	CivTAG: "brra_n",
+	CivID: 33,
+	PCID: 275,
+	CPID: 5570,
+	Legacy: 100,
+	TechnologyID: 52,
+	Population: 180000000,
+	TaxEff: 35,
+	CCL: 3,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "hyb_m",
+	CivID: 34,
+	PCID: 33,
+	CPID: 5333,
+	TechnologyID: 39,
+	Population: 15000000
+},
+{
+	CivTAG: "bass_m",
+	CivID: 35,
+	PCID: 33,
+	CPID: 5740,
+	TechnologyID: 39
+},
+{
+	CivTAG: "jai_m",
+	CivID: 36,
+	PCID: 33,
+	CPID: 5638,
+	TechnologyID: 39
+},
+{
+	CivTAG: "tjod_n",
+	CivID: 37,
+	PCID: 33,
+	CPID: 5776,
+	TechnologyID: 39
+},
+{
+	CivTAG: "tbik_m",
+	CivID: 38,
+	PCID: 33,
+	CPID: 5642,
+	TechnologyID: 39
+},
+{
+	CivTAG: "tija_m",
+	CivID: 39,
+	PCID: 33,
+	CPID: 5484,
+	TechnologyID: 39,
+	Population: 2750000
+},
+{
+	CivTAG: "mew_m",
+	CivID: 40,
+	PCID: 33,
+	CPID: 5551,
+	TechnologyID: 39
+},
+{
+	CivTAG: "tind_n",
+	CivID: 41,
+	PCID: 33,
+	CPID: 5590,
+	TechnologyID: 39
+},
+{
+	CivTAG: "tbar_n",
+	CivID: 42,
+	PCID: 33,
+	CPID: 5362,
+	TechnologyID: 39,
+	Population: 7500000
+},
+{
+	CivTAG: "tku_n",
+	CivID: 43,
+	PCID: 33,
+	CPID: 5397,
+	TechnologyID: 39
+},
+{
+	CivTAG: "tbho_n",
+	CivID: 44,
+	PCID: 33,
+	CPID: 5794,
+	TechnologyID: 39
+},
+{
+	CivTAG: "gwal_m",
+	CivID: 45,
+	PCID: 33,
+	CPID: 5616,
+	TechnologyID: 39
+},
+{
+	CivTAG: "bunh_m",
+	CivID: 46,
+	PCID: 33,
+	CPID: 5654,
+	TechnologyID: 39,
+	Population: 2300000
+},
+{
+	CivTAG: "ori_n",
+	CivID: 47,
+	PCID: 33,
+	CPID: 5748,
+	TechnologyID: 39
+},
+{
+	CivTAG: "tnag_n",
+	CivID: 48,
+	PCID: 33,
+	CPID: 5599,
+	TechnologyID: 39,
+	Population: 4000000
+},
+{
+	CivTAG: "tib_o",
+	CivID: 49,
+	PCID: 125,
+	CPID: 11207,
+	TechnologyID: 25
+},
+{
+	CivTAG: "swi_r",
+	CivID: 50,
+	PCID: 50,
+	CPID: 310,
+	TechnologyID: 58,
+	Population: 2200000,
+	CCL: 4,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 2
+},
+{
+	CivTAG: "lic_n",
+	CivID: 51,
+	PCID: 51,
+	CPID: 307,
+	TechnologyID: 57
+},
+{
+	CivTAG: "ven_p",
+	CivID: 52,
+	PCID: 52,
+	CPID: 5083,
+	TechnologyID: 37,
+	TaxEff: 15
+},
+{
+	CivTAG: "scub2_m2",
+	CivID: 53,
+	PCID: 20,
+	CPID: 2320,
+	TechnologyID: 37,
+	Population: 1000000
+},
+{
+	CivTAG: "ecu_r",
+	CivID: 54,
+	PCID: 54,
+	CPID: 2100,
+	TechnologyID: 37,
+	Population: 1200000
+},
+{
+	CivTAG: "bcol3_n",
+	CivID: 55,
+	PCID: 275,
+	CPID: 9674,
+	TechnologyID: 52
+},
+{
+	CivTAG: "bupp3_n",
+	CivID: 56,
+	PCID: 275,
+	CPID: 10243,
+	TechnologyID: 52
+},
+{
+	CivTAG: "huds3_n",
+	CivID: 57,
+	PCID: 275,
+	CPID: 10162,
+	TechnologyID: 52
+},
+{
+	CivTAG: "rusa3",
+	CivID: 58,
+	PCID: 276,
+	CPID: 9989,
+	TechnologyID: 39
+},
+{
+	CivTAG: "atha_t",
+	CivID: 59,
+	PCID: 59,
+	CPID: 10059,
+	TechnologyID: -1
+},
+{
+	CivTAG: "bsco3_m",
+	CivID: 60,
+	PCID: 275,
+	CPID: 10263,
+	TechnologyID: 52
+},
+{
+	CivTAG: "bbr3_m",
+	CivID: 61,
+	PCID: 275,
+	CPID: 10270,
+	TechnologyID: 52
+},
+{
+	CivTAG: "blow3_n",
+	CivID: 62,
+	PCID: 275,
+	CPID: 10251,
+	TechnologyID: 52
+},
+{
+	CivTAG: "igbo3_m",
+	CivID: 63,
+	PCID: 63,
+	CPID: 4633,
+	TechnologyID: -1,
+	Population: 2500000
+},
+{
+	CivTAG: "benn_m",
+	CivID: 64,
+	PCID: 64,
+	CPID: 4661,
+	TechnologyID: 25
+},
+{
+	CivTAG: "soko_m",
+	CivID: 65,
+	PCID: 65,
+	CPID: 3793,
+	TechnologyID: 25
+},
+{
+	CivTAG: "dual3_t",
+	CivID: 66,
+	PCID: 66,
+	CPID: 2546,
+	TechnologyID: -1
+},
+{
+	CivTAG: "bamu3_t",
+	CivID: 67,
+	PCID: 67,
+	CPID: 4657,
+	TechnologyID: -1
+},
+{
+	CivTAG: "oyo_t",
+	CivID: 68,
+	PCID: 68,
+	CPID: 2559,
+	TechnologyID: 25
+},
+{
+	CivTAG: "borg3_t",
+	CivID: 69,
+	PCID: 69,
+	CPID: 2527,
+	TechnologyID: -1
+},
+{
+	CivTAG: "daho_m",
+	CivID: 70,
+	PCID: 70,
+	CPID: 2524,
+	TechnologyID: 25
+},
+{
+	CivTAG: "ewe3_t",
+	CivID: 71,
+	PCID: 71,
+	CPID: 2438,
+	TechnologyID: -1
+},
+{
+	CivTAG: "lii_p",
+	CivID: 72,
+	PCID: 72,
+	CPID: 4672,
+	TechnologyID: 53
+},
+{
+	CivTAG: "kru3_t",
+	CivID: 73,
+	PCID: 73,
+	CPID: 2451,
+	TechnologyID: -1
+},
+{
+	CivTAG: "baul3_t",
+	CivID: 74,
+	PCID: 74,
+	CPID: 4663,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kabb3_t",
+	CivID: 75,
+	PCID: 75,
+	CPID: 2450,
+	TechnologyID: -1
+},
+{
+	CivTAG: "mand2_t",
+	CivID: 76,
+	PCID: 76,
+	CPID: 2506,
+	TechnologyID: -1
+},
+{
+	CivTAG: "akon_t",
+	CivID: 77,
+	PCID: 77,
+	CPID: 2514,
+	TechnologyID: -1
+},
+{
+	CivTAG: "futa2_m",
+	CivID: 78,
+	PCID: 78,
+	CPID: 2496,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kaab_t",
+	CivID: 79,
+	PCID: 79,
+	CPID: 4670,
+	TechnologyID: -1
+},
+{
+	CivTAG: "futa3_t",
+	CivID: 80,
+	PCID: 80,
+	CPID: 4474,
+	TechnologyID: -1
+},
+{
+	CivTAG: "mau_m",
+	CivID: 81,
+	PCID: 81,
+	CPID: 4418,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kaar3_m",
+	CivID: 82,
+	PCID: 82,
+	CPID: 4537,
+	TechnologyID: -1
+},
+{
+	CivTAG: "sego3_m",
+	CivID: 83,
+	PCID: 83,
+	CPID: 4470,
+	TechnologyID: -1
+},
+{
+	CivTAG: "mess_m",
+	CivID: 84,
+	PCID: 84,
+	CPID: 4539,
+	TechnologyID: -1
+},
+{
+	CivTAG: "mosi_t",
+	CivID: 85,
+	PCID: 85,
+	CPID: 4455,
+	TechnologyID: 25
+},
+{
+	CivTAG: "asha_m",
+	CivID: 86,
+	PCID: 86,
+	CPID: 2447,
+	TechnologyID: 25
+},
+{
+	CivTAG: "adag3_t",
+	CivID: 87,
+	PCID: 87,
+	CPID: 4557,
+	TechnologyID: -1
+},
+{
+	CivTAG: "oua3_t",
+	CivID: 88,
+	PCID: 88,
+	CPID: 4420,
+	TechnologyID: -1
+},
+{
+	CivTAG: "sahr3_t",
+	CivID: 89,
+	PCID: 89,
+	CPID: 4436,
+	TechnologyID: -1
+},
+{
+	CivTAG: "tuat3_t",
+	CivID: 90,
+	PCID: 90,
+	CPID: 4897,
+	TechnologyID: -1
+},
+{
+	CivTAG: "ahag3_t",
+	CivID: 91,
+	PCID: 91,
+	CPID: 4962,
+	TechnologyID: -1
+},
+{
+	CivTAG: "trip3_m",
+	CivID: 92,
+	PCID: 15,
+	CPID: 1365,
+	TechnologyID: 25
+},
+{
+	CivTAG: "teu3_t",
+	CivID: 93,
+	PCID: 93,
+	CPID: 8367,
+	TechnologyID: -1
+},
+{
+	CivTAG: "chl_p",
+	CivID: 94,
+	PCID: 94,
+	CPID: 7774,
+	TechnologyID: 37
+},
+{
+	CivTAG: "caq_n",
+	CivID: 95,
+	PCID: 275,
+	CPID: 3043,
+	Legacy: 100,
+	TechnologyID: 53,
+	Population: 8000000,
+	TaxEff: 30
+},
+{
+	CivTAG: "zulu_m",
+	CivID: 96,
+	PCID: 96,
+	CPID: 6790,
+	TechnologyID: 25
+},
+{
+	CivTAG: "trq_m",
+	CivID: 97,
+	PCID: 97,
+	CPID: 3278,
+	TechnologyID: 39
+},
+{
+	CivTAG: "oran_m",
+	CivID: 98,
+	PCID: 98,
+	CPID: 3270,
+	TechnologyID: 39
+},
+{
+	CivTAG: "imrr_m2",
+	CivID: 99,
+	PCID: 99,
+	CPID: 3489,
+	TechnologyID: 25
+},
+{
+	CivTAG: "bund3_t",
+	CivID: 100,
+	PCID: 100,
+	CPID: 4528,
+	TechnologyID: -1
+},
+{
+	CivTAG: "air3_t",
+	CivID: 101,
+	PCID: 101,
+	CPID: 4498,
+	TechnologyID: -1
+},
+{
+	CivTAG: "wada3_m",
+	CivID: 102,
+	PCID: 102,
+	CPID: 4556,
+	TechnologyID: -1
+},
+{
+	CivTAG: "born_m",
+	CivID: 103,
+	PCID: 103,
+	CPID: 2537,
+	TechnologyID: -1
+},
+{
+	CivTAG: "gobir_m",
+	CivID: 104,
+	PCID: 104,
+	CPID: 4443,
+	TechnologyID: -1
+},
+{
+	CivTAG: "bagu3_m",
+	CivID: 105,
+	PCID: 105,
+	CPID: 4479,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kong_m",
+	CivID: 106,
+	PCID: 106,
+	CPID: 3386,
+	TechnologyID: 25
+},
+{
+	CivTAG: "oteke3_t",
+	CivID: 107,
+	PCID: 107,
+	CPID: 3843,
+	TechnologyID: -1
+},
+{
+	CivTAG: "loan_t",
+	CivID: 108,
+	PCID: 108,
+	CPID: 6793,
+	TechnologyID: 25
+},
+{
+	CivTAG: "yaka_t",
+	CivID: 109,
+	PCID: 109,
+	CPID: 3399,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kasa_t",
+	CivID: 110,
+	PCID: 110,
+	CPID: 4196,
+	TechnologyID: -1
+},
+{
+	CivTAG: "chok_t",
+	CivID: 111,
+	PCID: 111,
+	CPID: 4263,
+	TechnologyID: -1
+},
+{
+	CivTAG: "lund_t",
+	CivID: 112,
+	PCID: 112,
+	CPID: 4129,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kuba_t",
+	CivID: 113,
+	PCID: 113,
+	CPID: 4235,
+	TechnologyID: -1
+},
+{
+	CivTAG: "lubb_t",
+	CivID: 114,
+	PCID: 114,
+	CPID: 4122,
+	TechnologyID: -1
+},
+{
+	CivTAG: "maje_m",
+	CivID: 115,
+	PCID: 115,
+	CPID: 4375,
+	TechnologyID: -1
+},
+{
+	CivTAG: "mahr_m",
+	CivID: 116,
+	PCID: 116,
+	CPID: 6033,
+	TechnologyID: -1
+},
+{
+	CivTAG: "warr_m",
+	CivID: 117,
+	PCID: 117,
+	CPID: 4378,
+	TechnologyID: -1
+},
+{
+	CivTAG: "nejd_m",
+	CivID: 118,
+	PCID: 118,
+	CPID: 6109,
+	TechnologyID: 39
+},
+{
+	CivTAG: "jsh_m",
+	CivID: 119,
+	PCID: 119,
+	CPID: 6173,
+	TechnologyID: 39
+},
+{
+	CivTAG: "oma2_m",
+	CivID: 120,
+	PCID: 120,
+	CPID: 6230,
+	TechnologyID: 39
+},
+{
+	CivTAG: "stru_n",
+	CivID: 121,
+	PCID: 121,
+	CPID: 3518,
+	TechnologyID: 17
+},
+{
+	CivTAG: "baj_m",
+	CivID: 122,
+	PCID: 122,
+	CPID: 3524,
+	TechnologyID: 17
+},
+{
+	CivTAG: "qat_m",
+	CivID: 123,
+	PCID: 123,
+	CPID: 6028,
+	TechnologyID: 17
+},
+{
+	CivTAG: "ira_m2",
+	CivID: 124,
+	PCID: 124,
+	CPID: 2578,
+	TechnologyID: 39
+},
+{
+	CivTAG: "qin_m",
+	CivID: 125,
+	PCID: 125,
+	CPID: 3475,
+	Legacy: 150,
+	TechnologyID: 28,
+	Population: 400000000,
+	TaxEff: 15,
+	CCL: 4,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 2
+},
+{
+	CivTAG: "jos_m",
+	CivID: 126,
+	PCID: 126,
+	CPID: 3437,
+	Legacy: 500,
+	TechnologyID: 32,
+	Population: 18000000,
+	TaxEff: 40,
+	CCL: 2,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "jap_m2",
+	CivID: 127,
+	PCID: 127,
+	CPID: 1799,
+	Legacy: 600,
+	TechnologyID: 40,
+	Population: 31500000,
+	TaxEff: 55,
+	CCL: 3,
+	MAL: 3,
+	MAGL: 3,
+	SCL: 2
+},
+{
+	CivTAG: "khiv_m",
+	CivID: 128,
+	PCID: 128,
+	CPID: 10586,
+	TechnologyID: 25
+},
+{
+	CivTAG: "koka_m",
+	CivID: 129,
+	PCID: 129,
+	CPID: 10596,
+	TechnologyID: 25
+},
+{
+	CivTAG: "kbu_m",
+	CivID: 130,
+	PCID: 130,
+	CPID: 10647,
+	TechnologyID: 25,
+	Population: 1500000
+},
+{
+	CivTAG: "azal3_m",
+	CivID: 131,
+	PCID: 131,
+	CPID: 4602,
+	TechnologyID: -1
+},
+{
+	CivTAG: "leha_m",
+	CivID: 132,
+	PCID: 132,
+	CPID: 5048,
+	TechnologyID: 17
+},
+{
+	CivTAG: "hadr_m",
+	CivID: 133,
+	PCID: 133,
+	CPID: 6023,
+	TechnologyID: -1
+},
+{
+	CivTAG: "marv_t",
+	CivID: 134,
+	PCID: 134,
+	CPID: 3850,
+	TechnologyID: -1
+},
+{
+	CivTAG: "hehe3_t",
+	CivID: 135,
+	PCID: 135,
+	CPID: 4096,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kikk3_t",
+	CivID: 136,
+	PCID: 136,
+	CPID: 4240,
+	TechnologyID: -1
+},
+{
+	CivTAG: "maai3_t",
+	CivID: 137,
+	PCID: 137,
+	CPID: 3960,
+	TechnologyID: -1
+},
+{
+	CivTAG: "bug_t",
+	CivID: 138,
+	PCID: 138,
+	CPID: 3370,
+	TechnologyID: -1
+},
+{
+	CivTAG: "buny_t",
+	CivID: 139,
+	PCID: 139,
+	CPID: 3859,
+	TechnologyID: -1
+},
+{
+	CivTAG: "ank_t",
+	CivID: 140,
+	PCID: 140,
+	CPID: 3514,
+	TechnologyID: -1
+},
+{
+	CivTAG: "rwa_t",
+	CivID: 141,
+	PCID: 141,
+	CPID: 3377,
+	TechnologyID: -1
+},
+{
+	CivTAG: "buu_t",
+	CivID: 142,
+	PCID: 142,
+	CPID: 4917,
+	TechnologyID: -1
+},
+{
+	CivTAG: "ka_t",
+	CivID: 143,
+	PCID: 143,
+	CPID: 3379,
+	TechnologyID: -1
+},
+{
+	CivTAG: "nyam3_t",
+	CivID: 144,
+	PCID: 144,
+	CPID: 4091,
+	TechnologyID: -1
+},
+{
+	CivTAG: "gogo3_t",
+	CivID: 145,
+	PCID: 145,
+	CPID: 3961,
+	TechnologyID: -1
+},
+{
+	CivTAG: "sann3_t",
+	CivID: 146,
+	PCID: 146,
+	CPID: 4089,
+	TechnologyID: -1
+},
+{
+	CivTAG: "bemb3_t",
+	CivID: 147,
+	PCID: 147,
+	CPID: 4050,
+	TechnologyID: -1
+},
+{
+	CivTAG: "mahh3_t",
+	CivID: 148,
+	PCID: 148,
+	CPID: 3366,
+	TechnologyID: -1
+},
+{
+	CivTAG: "matt3_t",
+	CivID: 149,
+	PCID: 149,
+	CPID: 3562,
+	TechnologyID: -1
+},
+{
+	CivTAG: "gell3_m",
+	CivID: 150,
+	PCID: 150,
+	CPID: 3915,
+	TechnologyID: -1
+},
+{
+	CivTAG: "bass3_m",
+	CivID: 151,
+	PCID: 151,
+	CPID: 3258,
+	TechnologyID: -1
+},
+{
+	CivTAG: "tsww3_t",
+	CivID: 152,
+	PCID: 152,
+	CPID: 4192,
+	TechnologyID: -1
+},
+{
+	CivTAG: "namm3_t",
+	CivID: 153,
+	PCID: 153,
+	CPID: 4153,
+	TechnologyID: -1
+},
+{
+	CivTAG: "herr3_t",
+	CivID: 154,
+	PCID: 154,
+	CPID: 4161,
+	TechnologyID: -1
+},
+{
+	CivTAG: "ovim3_t",
+	CivID: 155,
+	PCID: 155,
+	CPID: 4141,
+	TechnologyID: -1
+},
+{
+	CivTAG: "baro3_t",
+	CivID: 156,
+	PCID: 156,
+	CPID: 4027,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kaze_t",
+	CivID: 157,
+	PCID: 157,
+	CPID: 4048,
+	TechnologyID: -1
+},
+{
+	CivTAG: "hemb3_t",
+	CivID: 158,
+	PCID: 158,
+	CPID: 4074,
+	TechnologyID: -1
+},
+{
+	CivTAG: "lega3_t",
+	CivID: 159,
+	PCID: 159,
+	CPID: 4102,
+	TechnologyID: -1
+},
+{
+	CivTAG: "mang3_t",
+	CivID: 160,
+	PCID: 160,
+	CPID: 4111,
+	TechnologyID: -1
+},
+{
+	CivTAG: "azan3_t",
+	CivID: 161,
+	PCID: 161,
+	CPID: 4274,
+	TechnologyID: -1
+},
+{
+	CivTAG: "dar3_t",
+	CivID: 162,
+	PCID: 162,
+	CPID: 4331,
+	TechnologyID: -1
+},
+{
+	CivTAG: "darr3_t",
+	CivID: 163,
+	PCID: 163,
+	CPID: 4219,
+	TechnologyID: -1
+},
+{
+	CivTAG: "darf_m",
+	CivID: 164,
+	PCID: 164,
+	CPID: 4812,
+	TechnologyID: -1
+},
+{
+	CivTAG: "achh3_t",
+	CivID: 165,
+	PCID: 165,
+	CPID: 3943,
+	TechnologyID: -1
+},
+{
+	CivTAG: "dink3_t",
+	CivID: 166,
+	PCID: 166,
+	CPID: 4280,
+	TechnologyID: -1
+},
+{
+	CivTAG: "neur3_t",
+	CivID: 167,
+	PCID: 167,
+	CPID: 4339,
+	TechnologyID: -1
+},
+{
+	CivTAG: "topo3_t",
+	CivID: 168,
+	PCID: 168,
+	CPID: 4292,
+	TechnologyID: -1
+},
+{
+	CivTAG: "tukk3_t",
+	CivID: 169,
+	PCID: 169,
+	CPID: 4919,
+	TechnologyID: -1
+},
+{
+	CivTAG: "isq3_m",
+	CivID: 170,
+	PCID: 170,
+	CPID: 4369,
+	TechnologyID: -1
+},
+{
+	CivTAG: "fann3_t",
+	CivID: 171,
+	PCID: 171,
+	CPID: 3833,
+	TechnologyID: 25
+},
+{
+	CivTAG: "boba3_t",
+	CivID: 172,
+	PCID: 172,
+	CPID: 3995,
+	TechnologyID: -1
+},
+{
+	CivTAG: "bagg3_m",
+	CivID: 173,
+	PCID: 173,
+	CPID: 4246,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kala3_m",
+	CivID: 174,
+	PCID: 174,
+	CPID: 1309,
+	TechnologyID: 25
+},
+{
+	CivTAG: "makr3_m",
+	CivID: 175,
+	PCID: 174,
+	CPID: 1312,
+	TechnologyID: 25
+},
+{
+	CivTAG: "fij_t",
+	CivID: 176,
+	PCID: 176,
+	CPID: 11447,
+	TechnologyID: -1
+},
+{
+	CivTAG: "ton_t",
+	CivID: 177,
+	PCID: 177,
+	CPID: 11443,
+	TechnologyID: -1
+},
+{
+	CivTAG: "hawa_m",
+	CivID: 178,
+	PCID: 178,
+	CPID: 8934,
+	TechnologyID: 17
+},
+{
+	CivTAG: "van_t",
+	CivID: 179,
+	PCID: 179,
+	CPID: 11495,
+	TechnologyID: -1
+},
+{
+	CivTAG: "bwal3_n",
+	CivID: 180,
+	PCID: 275,
+	CPID: 6952,
+	TechnologyID: 51
+},
+{
+	CivTAG: "tas3_n",
+	CivID: 181,
+	PCID: 181,
+	CPID: 6929,
+	TechnologyID: 51
+},
+{
+	CivTAG: "kaur3_t",
+	CivID: 182,
+	PCID: 182,
+	CPID: 7109,
+	TechnologyID: -1
+},
+{
+	CivTAG: "bsou3_n",
+	CivID: 183,
+	PCID: 275,
+	CPID: 7112,
+	TechnologyID: 51
+},
+{
+	CivTAG: "awes3_n",
+	CivID: 184,
+	PCID: 275,
+	CPID: 7140,
+	TechnologyID: 51
+},
+{
+	CivTAG: "wati3_t",
+	CivID: 185,
+	PCID: 185,
+	CPID: 7198,
+	TechnologyID: -1
+},
+{
+	CivTAG: "mirr3_t",
+	CivID: 186,
+	PCID: 186,
+	CPID: 7122,
+	TechnologyID: -1
+},
+{
+	CivTAG: "noon3_t",
+	CivID: 187,
+	PCID: 187,
+	CPID: 7153,
+	TechnologyID: -1
+},
+{
+	CivTAG: "tri3_m",
+	CivID: 188,
+	PCID: 275,
+	CPID: 6773,
+	TechnologyID: 17
+},
+{
+	CivTAG: "toa3_m",
+	CivID: 189,
+	PCID: 189,
+	CPID: 6761,
+	TechnologyID: 17
+},
+{
+	CivTAG: "ngai3_m",
+	CivID: 190,
+	PCID: 190,
+	CPID: 6740,
+	TechnologyID: 17
+},
+{
+	CivTAG: "fpap_t",
+	CivID: 191,
+	PCID: 191,
+	CPID: 8467,
+	TechnologyID: -1
+},
+{
+	CivTAG: "tidd3_m",
+	CivID: 192,
+	PCID: 192,
+	CPID: 8514,
+	TechnologyID: -1
+},
+{
+	CivTAG: "sula3_t",
+	CivID: 193,
+	PCID: 193,
+	CPID: 11486,
+	TechnologyID: -1
+},
+{
+	CivTAG: "daii3_m",
+	CivID: 194,
+	PCID: 194,
+	CPID: 2768,
+	TechnologyID: 39
+},
+{
+	CivTAG: "cab_m",
+	CivID: 195,
+	PCID: 195,
+	CPID: 1641,
+	TechnologyID: 39
+},
+{
+	CivTAG: "cham_m",
+	CivID: 196,
+	PCID: 198,
+	CPID: 1673,
+	TechnologyID: 25
+},
+{
+	CivTAG: "phra_m",
+	CivID: 197,
+	PCID: 197,
+	CPID: 1608,
+	TechnologyID: 25
+},
+{
+	CivTAG: "tha2_m",
+	CivID: 198,
+	PCID: 198,
+	CPID: 1603,
+	TechnologyID: 39
+},
+{
+	CivTAG: "chhh3_m",
+	CivID: 199,
+	PCID: 198,
+	CPID: 1635,
+	TechnologyID: 25
+},
+{
+	CivTAG: "sphi2_m",
+	CivID: 200,
+	PCID: 20,
+	CPID: 5902,
+	Population: 37000000
+},
+{
+	CivTAG: "burr3_m",
+	CivID: 201,
+	PCID: 201,
+	CPID: 5690,
+	TechnologyID: 39
+},
+{
+	CivTAG: "siki_m",
+	CivID: 202,
+	PCID: 202,
+	CPID: 5323
+},
+{
+	CivTAG: "bhu_m",
+	CivID: 203,
+	PCID: 203,
+	CPID: 3432,
+	TechnologyID: 17
+},
+{
+	CivTAG: "nep_q",
+	CivID: 204,
+	PCID: 204,
+	CPID: 5498,
+	TechnologyID: 17
+},
+{
+	CivTAG: "aceh_m",
+	CivID: 205,
+	PCID: 205,
+	CPID: 1538,
+	TechnologyID: 17,
+	Population: 370000
+},
+{
+	CivTAG: "sela3_m",
+	CivID: 206,
+	PCID: 206,
+	CPID: 1582,
+	TechnologyID: 17
+},
+{
+	CivTAG: "per2_m",
+	CivID: 207,
+	PCID: 207,
+	CPID: 1583,
+	TechnologyID: 17
+},
+{
+	CivTAG: "joho_m",
+	CivID: 208,
+	PCID: 208,
+	CPID: 1587,
+	TechnologyID: 17
+},
+{
+	CivTAG: "bru_m",
+	CivID: 209,
+	PCID: 209,
+	CPID: 1475,
+	TechnologyID: 17
+},
+{
+	CivTAG: "buly_m",
+	CivID: 210,
+	PCID: 210,
+	CPID: 5579,
+	TechnologyID: -1
+},
+{
+	CivTAG: "kuta_m",
+	CivID: 211,
+	PCID: 211,
+	CPID: 1494,
+	TechnologyID: -1
+},
+{
+	CivTAG: "sing3_t",
+	CivID: 212,
+	PCID: 212,
+	CPID: 1487,
+	TechnologyID: -1
+},
+{
+	CivTAG: "sakh3_t",
+	CivID: 213,
+	PCID: 213,
+	CPID: 11070,
+	TechnologyID: -1
+},
+{
+	CivTAG: "hai_m",
+	CivID: 214,
+	PCID: 214,
+	CPID: 2336,
+	TechnologyID: 37
+},
+{
+	CivTAG: "and_m",
+	CivID: 215,
+	PCID: 215,
+	CPID: 55
+},
+{
+	CivTAG: "duin_m",
+	CivID: 216,
+	PCID: 5,
+	CPID: 1554,
+	TechnologyID: 51,
+	CCL: 1,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "usa_p",
+	CivID: 217,
+	PCID: 217,
+	CPID: 8714,
+	Legacy: 250,
+	TechnologyID: 62,
+	Population: 32500000,
+	TaxEff: 45,
+	CCL: 3,
+	MAL: 2,
+	MAGL: 2,
+	SCL: 2
+},
+{
+	CivTAG: "hera3_m",
+	CivID: 218,
+	PCID: 218,
+	CPID: 5841,
+	TechnologyID: 25
+},
+{
+	CivTAG: "kabu_m",
+	CivID: 219,
+	PCID: 219,
+	CPID: 5843,
+	TechnologyID: 25
+},
+{
+	CivTAG: "zan_m",
+	CivID: 220,
+	PCID: 120,
+	CPID: 3888
+},
+{
+	CivTAG: "bedo2_t",
+	CivID: 221,
+	PCID: 221,
+	CPID: 4943,
+	TechnologyID: -1
+},
+{
+	CivTAG: "mush_m",
+	CivID: 222,
+	PCID: 124,
+	CPID: 2623,
+	TechnologyID: 25
+},
+{
+	CivTAG: "ger_m",
+	CivID: 223,
+	PCID: 223,
+	CPID: 592,
+	Legacy: 100,
+	TechnologyID: 59,
+	Population: 34000000,
+	TaxEff: 65,
+	CCL: 3,
+	MAL: 4,
+	MAGL: 4,
+	SCL: 2
+},
+{
+	CivTAG: "cor_p",
+	CivID: 224,
+	PCID: 224,
+	CPID: 8221,
+	TechnologyID: 37
+},
+{
+	CivTAG: "els_p",
+	CivID: 225,
+	PCID: 225,
+	CPID: 1843,
+	TechnologyID: 37
+},
+{
+	CivTAG: "hou_p",
+	CivID: 226,
+	PCID: 226,
+	CPID: 1895,
+	TechnologyID: 37
+},
+{
+	CivTAG: "gua_p",
+	CivID: 227,
+	PCID: 227,
+	CPID: 1858,
+	TechnologyID: 37
+},
+{
+	CivTAG: "nic_p",
+	CivID: 228,
+	PCID: 228,
+	CPID: 1880,
+	TechnologyID: 37
+},
+{
+	CivTAG: "dom_r",
+	CivID: 229,
+	PCID: 229,
+	CPID: 2328,
+	TechnologyID: 37
+},
+{
+	CivTAG: "sind3_m",
+	CivID: 230,
+	PCID: 217,
+	CPID: 9906,
+	TechnologyID: 58,
+	Population: 500000,
+	TaxEff: 5
+},
+{
+	CivTAG: "bol_r",
+	CivID: 231,
+	PCID: 231,
+	CPID: 2119,
+	TechnologyID: 45
+},
+{
+	CivTAG: "per_p",
+	CivID: 232,
+	PCID: 232,
+	CPID: 2041,
+	TechnologyID: 37
+},
+{
+	CivTAG: "pol_m",
+	CivID: 233,
+	PCID: 276,
+	CPID: 1276,
+	Legacy: 500,
+	TechnologyID: 45,
+	TaxEff: 20
+},
+{
+	CivTAG: "unba",
+	CivID: 234,
+	PCID: 276,
+	CPID: 504,
+	TechnologyID: 45,
+	TaxEff: 20
+},
+{
+	CivTAG: "swe_m",
+	CivID: 235,
+	PCID: 235,
+	CPID: 1049,
+	Legacy: 800,
+	TechnologyID: 57,
+	TaxEff: 80,
+	CCL: 3,
+	MAL: 2,
+	MAGL: 2,
+	SCL: 2
+},
+{
+	CivTAG: "monn_m",
+	CivID: 236,
+	PCID: 125,
+	CPID: 10768,
+	TechnologyID: 25
+},
+{
+	CivTAG: "sara_m",
+	CivID: 237,
+	PCID: 209,
+	CPID: 1479,
+	TechnologyID: 17
+},
+{
+	CivTAG: "gren_r",
+	CivID: 238,
+	PCID: 238,
+	CPID: 2162,
+	TechnologyID: 45
+},
+{
+	CivTAG: "maqq_t",
+	CivID: 239,
+	PCID: 239,
+	CPID: 8381,
+	TechnologyID: -1
+},
+{
+	CivTAG: "ita_m",
+	CivID: 240,
+	PCID: 240,
+	CPID: 6881,
+	Legacy: 1500,
+	TechnologyID: 46,
+	Population: 22182000,
+	TaxEff: 55,
+	CCL: 4,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 2
+},
+{
+	CivTAG: "ire",
+	CivID: 241,
+	PCID: 241,
+	CPID: 924
+},
+{
+	CivTAG: "wal",
+	CivID: 242,
+	PCID: 242,
+	CPID: 858
+},
+{
+	CivTAG: "sco",
+	CivID: 243,
+	PCID: 243,
+	CPID: 856
+},
+{
+	CivTAG: "ice",
+	CivID: 244,
+	PCID: 244,
+	CPID: 6850
+},
+{
+	CivTAG: "cro",
+	CivID: 245,
+	PCID: 245,
+	CPID: 3064
+},
+{
+	CivTAG: "hun_m",
+	CivID: 246,
+	PCID: 246,
+	CPID: 3145
+},
+{
+	CivTAG: "pola",
+	CivID: 247,
+	PCID: 247,
+	CPID: 1240
+},
+{
+	CivTAG: "bohe",
+	CivID: 248,
+	PCID: 248,
+	CPID: 664
+},
+{
+	CivTAG: "bul",
+	CivID: 249,
+	PCID: 249,
+	CPID: 3061
+},
+{
+	CivTAG: "alb2",
+	CivID: 250,
+	PCID: 250,
+	CPID: 7342
+},
+{
+	CivTAG: "cret",
+	CivID: 251,
+	PCID: 251,
+	CPID: 1359
+},
+{
+	CivTAG: "eth_m",
+	CivID: 252,
+	PCID: 252,
+	CPID: 4389,
+	Legacy: 100,
+	TechnologyID: 39,
+	TaxEff: 15
+},
+{
+	CivTAG: "lit",
+	CivID: 253,
+	PCID: 253,
+	CPID: 456
+},
+{
+	CivTAG: "lat",
+	CivID: 254,
+	PCID: 254,
+	CPID: 504
+},
+{
+	CivTAG: "est",
+	CivID: 255,
+	PCID: 255,
+	CPID: 516
+},
+{
+	CivTAG: "susu3_t",
+	CivID: 256,
+	PCID: 256,
+	CPID: 2457
+},
+{
+	CivTAG: "hara_m",
+	CivID: 257,
+	PCID: 252,
+	CPID: 4308
+},
+{
+	CivTAG: "xij",
+	CivID: 258,
+	PCID: 258,
+	CPID: 10775
+},
+{
+	CivTAG: "man",
+	CivID: 259,
+	PCID: 259,
+	CPID: 11086
+},
+{
+	CivTAG: "conf_p",
+	CivID: 260,
+	PCID: 260,
+	CPID: 8659
+},
+{
+	CivTAG: "flan",
+	CivID: 261,
+	PCID: 261,
+	CPID: 831
+},
+{
+	CivTAG: "gsg3",
+	CivID: 262,
+	PCID: 262,
+	CPID: 12500
+},
+{
+	CivTAG: "brit",
+	CivID: 263,
+	PCID: 263,
+	CPID: 252
+},
+{
+	CivTAG: "corn",
+	CivID: 264,
+	PCID: 264,
+	CPID: 6602
+},
+{
+	CivTAG: "bah",
+	CivID: 265,
+	PCID: 265,
+	CPID: 3047
+},
+{
+	CivTAG: "cpr",
+	CivID: 266,
+	PCID: 266,
+	CPID: 1357
+},
+{
+	CivTAG: "slv",
+	CivID: 267,
+	PCID: 267,
+	CPID: 3110
+},
+{
+	CivTAG: "ver",
+	CivID: 268,
+	PCID: 268,
+	CPID: 3064
+},
+{
+	CivTAG: "papa",
+	CivID: 269,
+	PCID: 269,
+	CPID: 194
+},
+{
+	CivTAG: "vat",
+	CivID: 270,
+	PCID: 270,
+	CPID: 6881
+},
+{
+	CivTAG: "gali",
+	CivID: 271,
+	PCID: 271,
+	CPID: 3709
+},
+{
+	CivTAG: "cat",
+	CivID: 272,
+	PCID: 272,
+	CPID: 53
+},
+{
+	CivTAG: "dje_m",
+	CivID: 273,
+	PCID: 273,
+	CPID: 4774
+},
+{
+	CivTAG: "ggg",
+	CivID: 274,
+	PCID: 274,
+	CPID: 966
+},
+{
+	CivTAG: "uni_m",
+	CivID: 275,
+	PCID: 275,
+	CPID: 825,
+	Legacy: 500,
+	TechnologyID: 61,
+	Population: 35000000,
+	TaxEff: 50,
+	CCL: 4,
+	MAL: 2,
+	MAGL: 2,
+	SCL: 2
+},
+{
+	CivTAG: "rus_m",
+	CivID: 276,
+	PCID: 276,
+	CPID: 3738,
+	Legacy: 350,
+	TechnologyID: 45,
+	Population: 60000000,
+	TaxEff: 25,
+	CCL: 2,
+	MAL: 1,
+	MAGL: 1,
+	SCL: 1
+},
+{
+	CivTAG: "arm",
+	CivID: 277,
+	PCID: 277,
+	CPID: 1192
+},
+{
+	CivTAG: "geo",
+	CivID: 278,
+	PCID: 278,
+	CPID: 10442
+},
+{
+	CivTAG: "aze",
+	CivID: 279,
+	PCID: 279,
+	CPID: 2655
+},
+{
+	CivTAG: "dag",
+	CivID: 280,
+	PCID: 280,
+	CPID: 10828
+}
+]

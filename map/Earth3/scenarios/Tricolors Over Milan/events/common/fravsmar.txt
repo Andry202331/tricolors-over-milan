@@ -1,0 +1,29 @@
+id=fravsmar
+title=The quest to control Morocco
+desc=The decision to attack Morocco wasn't too far fetched, as we could gain both lots of potential resources aswell as the required dominance in the Mediterranean to hinder Italian colonial ambitions outside of it.
+
+image=fra_col.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=fra
+next_and
+is_civ=fra
+next_and
+exact_day=3=5=1862
+next_and
+has_variable=attack_morocco
+trigger_and_end
+
+option_btn
+name=Allons!
+ai=100
+declare_war=mor_m
+option_end

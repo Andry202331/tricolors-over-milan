@@ -1,0 +1,31 @@
+id=gervsden
+title=The Schleswig-Holstein Question
+desc=Schleswig-Holstein, a region mostly inhabited by Germans, is still under foreign control. Denmark, their ruler, is quite weak. We can prompt a clash near the border in order to let us annex those regions to avoid conflict.
+
+image=truppe_ger.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=den
+next_and
+is_civ=ger_m
+next_and
+civs_are_not_at_war=ger_m=den
+next_and
+exact_day=6=7=1864
+trigger_and_end
+
+option_btn
+name=Vor Kiel!
+ai=100
+legacy=5
+manpower=-3000
+run_event=den_surrender
+option_end

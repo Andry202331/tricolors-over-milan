@@ -1,0 +1,30 @@
+id=bri_hol_response_acc
+title=The Dutch accept!
+desc=The Dutch have accepted our proposal!
+
+image=west_africa.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=net
+next_and
+is_civ=uni_m
+next_and
+exact_day=31=3=1866
+next_and
+has_variable=net_ghana_acc
+trigger_and_end
+
+option_btn
+name=Peace in our time!
+ai=100
+annex_by_civ_from_civ=uni_m=net_m=2414
+add_variable2=net=bri_promise_port
+option_end

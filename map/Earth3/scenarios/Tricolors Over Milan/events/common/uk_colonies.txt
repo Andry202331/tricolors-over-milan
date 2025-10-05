@@ -1,0 +1,55 @@
+id=uk_colonies
+title=Colonial expansion in Africa
+desc=Since 1787 we've been establishing colonies in Africa. We have some available budget to spend on colonial expansion, however the question is: where should we focus our efforts?
+
+image=ita_col.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=uni
+next_and
+is_civ=uni_m
+next_and
+province_controlled_by=2414=uni_m
+trigger_and_end
+
+option_btn
+name=Continue expanding into Ghana
+ai=33
+legacy=5
+gold=-100
+manpower=-2000
+run_event=uk_ghana_exp
+option_end
+
+option_btn
+name=Nigeria seems a more promising colony
+ai=33
+legacy=5
+gold=-100
+manpower=-2000
+run_event=uk_nigeria_exp
+option_end
+
+option_btn
+name=The Cape Colony needs some funds to defeat the Oranje and Transvaal states
+ai=33
+legacy=5
+gold=-100
+manpower=-2000
+run_event=uk_cape_exp
+option_end
+
+option_btn
+name=Use the funds to make colonial reforms instead (WIP)
+ai=1
+legacy=50
+gold=-100
+option_end

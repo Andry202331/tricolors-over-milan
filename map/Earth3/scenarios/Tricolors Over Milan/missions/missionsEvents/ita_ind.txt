@@ -1,0 +1,21 @@
+id=ita_ind
+title=Begin Italian Industrialization
+desc=It's been almost 60 years since the start of the Industrial Revolution and it is time for Italy to catch up with the west and start an industrialization process ourselves!
+
+image=42.png
+
+show_in_missions=false
+mission_image=8
+
+only_once=true
+
+trigger_and
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=Let's begin industrialization!
+ai=100
+add_variable=Begin_Italian_Industrialization
+option_end

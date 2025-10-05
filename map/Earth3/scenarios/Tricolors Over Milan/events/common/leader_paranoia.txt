@@ -1,0 +1,43 @@
+id=Leaderparanoia
+title=Leader Paranoia on the rise!
+desc=our leader has been experiencing High Paranoia
+our leader has even demanded the The entire Council to be hung.
+
+image=Leaderparanoia.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+random_chance=0.1
+trigger_and_end
+
+option_btn
+name=the Leader's command must be Followed, hang them!.
+ai=50
+province_unrest_all=55.7
+kill_advisor=0
+kill_advisor=1
+kill_advisor=2
+kill_advisor=3
+option_end
+
+option_btn
+name=Lets send them in Exile instead.
+ai=25
+province_unrest_all=25.4
+gold=-150
+kill_advisor=0
+kill_advisor=1
+kill_advisor=2
+kill_advisor=3
+option_end
+
+option_btn
+name=let them be.
+run_event=Leader_paranoia_2
+ai=25
+option_end

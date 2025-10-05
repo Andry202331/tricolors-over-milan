@@ -1,0 +1,43 @@
+id=ita_egy
+title=Our first colonial port
+desc=Egypt was chosen as our next objective in terms of colonial expansion, a controversial decision to say the least due to the presence of the powerful Ottoman Empire, which might not like the fact that Egypt could be that easily taken. Our explorers need your guidance to pick the best possible place to start a trading port and eventually expand it into a settlement.
+
+image=egitto.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ita
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=We will settle West, near Tripolitania
+ai=33
+annex=2690
+option_end
+
+option_btn
+name=We will settle East, in the Sinai
+ai=33
+annex=2683
+option_end
+
+option_btn
+name=We will settle near the Nile
+ai=33
+annex=2666
+option_end
+
+option_btn
+name=Nevermind (returns to choosing the region)
+ai=1
+run_event=ita_colonies2
+option_end

@@ -1,0 +1,28 @@
+id=usa_civ_war2
+title=Carolina secession
+desc=The Carolina states have seceded...
+
+image=house_divided.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=usa
+next_and
+is_civ=usa
+next_and
+exact_day=4=7=1861
+trigger_and_end
+
+option_btn
+name=Dammit!
+ai=100
+run_event=usa_civ_war3
+annex_by_civ_from_civ=conf=usa=8664;759;8756;8759;8753;8752;8763;8762;8757;8680;8678;8843;8880;9864;8665;8847;8666;8667;8846;8679;8681;8758;8668;8848;8662;8660;8761;8754;8814;8658;8675;9853;8671;8673;8674;8861;8672;8670;8661;8893;8669;8743;8750;8751;8755
+option_end

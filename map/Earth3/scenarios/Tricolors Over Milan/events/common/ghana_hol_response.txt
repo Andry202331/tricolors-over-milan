@@ -1,0 +1,39 @@
+id=ghana_hol_response
+title=Colonial competition in Ghana
+desc=Our colonial ambitions in Ghana are currently threatened by the UK. They have approached us with a deal: we give them our possesions in Ghana in exchange for ensuring us they will support us to get a treaty port on the Atlantic coast of Africa. How should we respond?
+
+image=west_africa.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=uni
+next_and
+is_civ=net_m
+next_and
+province_controlled_by=2414=net_m
+next_and
+province_controlled_by=2415=uni_m
+next_and
+has_variable=bri_ghana_peac
+trigger_and_end
+
+option_btn
+name=We agree
+ai=50
+add_variable2=uni_m=net_ghana_acc
+run_event=bri_hol_response_acc
+option_end
+
+option_btn
+name=We don't agree
+ai=50
+add_variable2=uni_m=net_ghana_ref
+run_event=bri_hol_response_ref
+option_end

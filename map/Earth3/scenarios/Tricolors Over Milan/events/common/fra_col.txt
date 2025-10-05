@@ -1,0 +1,35 @@
+id=fra_colonies
+title=The race to control North Africa
+desc=Italian colonial ambitions threaten our own in North Africa. We should start investing more in asserting our control in Algeria and expand our sphere of influence, we have 2 choices: expand boldly into Morocco, with a surprise assault, or continue our expansion in the Sahara desert...
+
+image=fra_algeria.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=fra
+next_and
+is_civ=fra
+next_and
+has_variable=ita_col_expansion
+trigger_and_end
+
+option_btn
+name=Vers le Maroc!
+ai=65
+run_event=fravsmar
+add_variable=attack_morocco
+option_end
+
+option_btn
+name=Go south to eventually connect with our Senagalese colony!
+ai=35
+run_event=fra_sah
+add_variable=sahara_expansion
+option_end

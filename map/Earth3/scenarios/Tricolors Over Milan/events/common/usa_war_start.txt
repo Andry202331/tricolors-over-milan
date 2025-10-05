@@ -1,0 +1,34 @@
+id=usa_war_start
+title=The American Civil War
+desc=It is time to destroy the racist and slave trading South, for the good of the Nation...
+
+image=house_divided.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=usa
+next_and
+is_civ=usa
+next_and
+exact_day=27=8=1861
+trigger_and_end
+
+option_btn
+name=For a government of the people, by the people, and for the people.
+ai=100
+declare_war=conf
+add_advisor=3
+run_event=uk_usa_reaction
+run_event=fra_usa_reaction
+run_event=ita_usa_reaction
+run_event=ger_usa_reaction
+run_event=generic_usa_reaction
+play_music=Over There
+option_end

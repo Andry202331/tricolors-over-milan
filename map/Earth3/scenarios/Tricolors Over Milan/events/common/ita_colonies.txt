@@ -1,0 +1,37 @@
+id=ita_colonies
+title=Colonial settlements in North Africa
+desc=Since 1855 we've been establishing colonies in Tunisia, and thanks to the Misrata purchase of 1857, we also have influence on nearby Tripolitania. We have some available budget to spend on colonial expansion, however the question is: should we focus on completing the colonization of Tunisia first or start colonizing other parts of the world?
+
+image=ita_col.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ita
+next_and
+is_civ=ita_m
+next_and
+exact_day=21=3=1861
+trigger_and_end
+
+option_btn
+name=Prepare an offensive against the Djerids!
+ai=65
+legacy=10
+manpower=-2000
+run_event=itavsdje
+option_end
+
+option_btn
+name=Venture into different places!
+ai=35
+gold=-100
+run_event=ita_colonies2
+add_variable2=ita_m=find_another_place
+option_end

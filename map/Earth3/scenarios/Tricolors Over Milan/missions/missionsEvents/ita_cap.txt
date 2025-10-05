@@ -1,0 +1,31 @@
+id=ita_cap
+title=Invest in the Northern industry
+desc=The northern part of our nation offers us large flat lands not only suitable for farms but also industries.
+
+image=53.png
+
+show_in_missions=false
+mission_image=8
+
+only_once=true
+
+trigger_and
+next_and
+has_variable=Industrialize
+next_and
+civ_gold_over=3000
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=Milano, Torino and Genova will become the industrial triangle!
+ai=100
+gold=-3000
+bonus_duration=2
+bonus_invest_in_economy_cost=-25.0
+bonus_develop_infrastructure_cost=-15.0
+bonus_construction_cost=-10
+bonus_monthly_income=25
+add_variable=Nor_ind
+option_end

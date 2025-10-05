@@ -1,0 +1,33 @@
+id=aus_situation
+title=Our situation
+desc=Our empire is the most diverse in the world, both culturally and linguistically. This problem has to be assessed, as not acting upon it can lead to major instability within our empire.
+
+image=austria_ungheria.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=atr
+next_and
+is_civ=atr_m
+trigger_and_end
+
+option_btn
+name=Promise more autonomy
+ai=65
+add_variable=more_autonomy
+run_event=aus_autonomy
+option_end
+
+option_btn
+name=Plan assimilation
+ai=35
+add_variable=less_autonomy
+run_event=aus_assimilation
+option_end

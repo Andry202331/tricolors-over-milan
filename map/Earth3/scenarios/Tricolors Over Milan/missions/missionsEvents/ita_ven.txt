@@ -1,0 +1,34 @@
+id=ita_ven
+title=The industries in Veneto
+desc=Veneto, a region recently conquered by us from Austria, is lacking behind compared to Lombardy in terms of industrial development. We should focus more on it.
+
+image=53.png
+
+show_in_missions=false
+mission_image=8
+
+only_once=true
+
+trigger_and
+next_and
+has_variable=German_model
+next_and
+invested_in_economy_over=100
+next_and
+developed_infrastructure_over=10
+next_and
+civ_gold_over=3000
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=Agreed!
+ai=100
+gold=-3000
+bonus_duration=2
+bonus_invest_in_economy_cost=-15
+bonus_develop_infrastructure_cost=-15
+bonus_construction_cost=-15
+add_variable=Veneto_industries
+option_end

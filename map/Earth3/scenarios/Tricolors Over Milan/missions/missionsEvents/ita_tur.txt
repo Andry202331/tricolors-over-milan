@@ -1,0 +1,33 @@
+id=ita_tur
+title=Promote tourism
+desc=Italy has a lot of ancient sites and museums to visit. We can profit off of that by promoting tourist activities.
+
+image=114.png
+
+show_in_missions=false
+mission_image=8
+
+only_once=true
+
+trigger_and
+next_and
+has_variable=Veneto_industries
+next_and
+civ_gold_over=250
+next_and
+developed_infrastructure_over=15
+next_and
+buildings_constructed_over=20
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=Il duomo di Milano, la torre di Pisa, il Colosseo!
+ai=100
+gold=-250
+bonus_duration=50
+bonus_monthly_income=5.0
+bonus_monthly_legacy=0.5
+bonus_growth_rate=1
+option_end

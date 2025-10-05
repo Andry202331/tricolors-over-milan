@@ -1,0 +1,31 @@
+id=ger_congo
+title=Our first colonial port
+desc=Congo was chosen as our first colonial settlement.
+
+image=congo.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ger
+next_and
+is_civ=ger_m
+trigger_and_end
+
+option_btn
+name=Settle in
+ai=99
+annex=3384
+option_end
+
+option_btn
+name=Nevermind (returns to settlement selection)
+ai=1
+run_event=ger_colonies_big
+option_end

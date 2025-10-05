@@ -1,0 +1,21 @@
+{
+Name: "Tricolors Over Milan 0.4.2",
+Author: "Giove2020",
+Civs: 280,
+Age: 7,
+Day: 1,
+Month: 1,
+Year: 1861,
+Campaign: false,
+CivDefault_Gold: 275,
+CivDefault_GoldRandom: 125,
+CivDefault_Legacy: 175,
+CivDefault_LegacyRandom: 75,
+CivDefault_ManpowerPercentage: 77,
+CivDefault_Technology: 57,
+ProvinceDefault_Population: 450000,
+ProvinceDefault_Economy: 10,
+ProvinceDefault_TaxEfficiency: 12,
+ProvinceDefault_Manpower: 20,
+HoursPerTurn: 6
+}

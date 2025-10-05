@@ -1,0 +1,30 @@
+id=uk_nigeria_exp
+title=Conquer Nigeria
+desc=We are ready for an offensive war against the Oyo tribe
+
+image=ita_col.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=uni
+next_and
+is_civ=uni_m
+next_and
+civs_are_not_at_war=uni_m=oyo
+next_and
+year_over=1867
+trigger_and_end
+
+option_btn
+name=Charge!
+ai=100
+gold=-100
+declare_war=oyo
+option_end

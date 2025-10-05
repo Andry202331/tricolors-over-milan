@@ -1,0 +1,29 @@
+id=conf_surrender
+title=Should we surrender?
+desc=Our military is outmatched by the Union Army in every field, should we really continue our war efforts?
+
+image=TOM_logo.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+is_civ=conf
+next_and
+exists_any=conf
+next_and
+exact_day=12=10=1862
+next_or
+civ_capital_is_occupied=true
+trigger_and_end
+
+option_btn
+name=It's hopeless to continue fighting...
+ai=100
+run_event=usa_peace
+option_end

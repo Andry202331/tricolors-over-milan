@@ -1,0 +1,31 @@
+id=fra_mar_revolts
+title=Revolts in Morocco!
+desc=The Moroccan people are revolting against our rule!
+
+image=marocco.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=fra
+next_and
+is_civ=fra_p
+next_and
+not_exists=mor_m
+next_and
+exact_day=12=7=1865
+trigger_and_end
+
+option_btn
+name=Oui!
+ai=100
+annex_by_civ_from_civ=mor_m=fra_p=4689;12135;2926;2930;2932;4898;3222;3230;2924;2925;3225;3223;2928;
+run_event=mar_revolts
+declare_war=mor_m
+option_end

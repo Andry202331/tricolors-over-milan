@@ -1,0 +1,43 @@
+id=ita_egy
+title=Our first colonial port
+desc=The Gulf of Guinea was chosen as our next objective in terms of colonial expansion, a controversial decision to say the least due to the slave trade in the region. Our explorers need your guidance to pick the best possible place to start a trading port and eventually expand it into a settlement.
+
+image=ita_camerun.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ger
+next_and
+is_civ=ger_m
+next_and
+province_not_controlled_by=2546=ita_m
+next_and
+province_not_controlled_by=2545=ita_m
+next_and
+province_not_controlled_by=4659=ita_m
+trigger_and_end
+
+option_btn
+name=We will settle East of the Bioko island
+ai=34
+annex=2546
+option_end
+
+option_btn
+name=We will settle North of the Bioko island 
+ai=33
+annex=2545
+option_end
+
+option_btn
+name=We will settle North-West of the Bioko island
+ai=33
+annex=4659
+option_end

@@ -1,0 +1,45 @@
+id=welcome2
+title=Allow scripted events?
+desc=By allowing scripted events, you'll also allow scripted wars and peace deals. 
+
+image=TOM_logo.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ita
+next_and
+exists_any=fra
+next_and
+exists_any=uni
+next_and
+exists_any=ger
+next_and
+exists_any=usa
+next_and
+exists_any=rus
+next_and
+exists_any=atr
+trigger_and_end
+
+option_btn
+name=Allow
+ai=99
+run_event=ita_colonies
+run_event=fra_defeat_unrest
+run_event=aus_situation
+run_event=rus_situation
+run_event=polish_revolts
+ai_aggression=-1000
+option_end
+
+option_btn
+name=No thanks
+ai=1
+option_end

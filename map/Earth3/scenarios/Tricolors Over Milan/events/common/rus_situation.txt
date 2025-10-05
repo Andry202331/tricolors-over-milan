@@ -1,0 +1,38 @@
+id=rus_situation
+title=Our situation
+desc=Our empire is the largest in the world, but that doesn't stop the current Tsar to plan even more expansion, however it does need your help to decide on which front to concentrate. What front should we pick?
+
+image=impero_russo.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+is_civ=rus_m
+trigger_and_end
+
+option_btn
+name=Let's take down the Ottomans once and for all!
+ai=50
+gold=-100
+run_event=rusvsotto
+option_end
+
+option_btn
+name=Finish expansion in Central Asia
+ai=35
+gold=-100
+run_event=rus_central_asia
+option_end
+
+option_btn
+name=Continue on China
+ai=15
+gold=-100
+run_event=rus_china
+option_end

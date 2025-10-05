@@ -1,0 +1,533 @@
+{
+    Mission:
+    [
+		{
+			ID: 0,
+			Name: "Begin Italian Industrialization",
+			ImageName: "realismo_1.png",
+			
+			MissionEvent: "ita_ind.txt",
+			
+			TreeColumn: 0,
+			TreeRow: 2,
+			
+			RequiredMission: -1,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+        {
+			ID: 1,
+			Name: "Agriculture of Italy",
+			ImageName: "agr_ita.png",
+			
+			MissionEvent: "ita_agri.txt",
+			
+			TreeColumn: 1,
+			TreeRow: 1,
+			
+			RequiredMission: 0,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+
+        {
+			ID: 2,
+			Name: "Invest in Technological Advantages",
+			ImageName: "innovation_1.png",
+			
+			MissionEvent: "ita_tech.txt",
+			
+			TreeColumn: 2,
+			TreeRow: 1,
+			
+			RequiredMission: 1,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+
+        {
+			ID: 3,
+			Name: "The Northern Agriculture",
+			ImageName: "img87.png",
+			
+			MissionEvent: "ita_agri_nor.txt",
+			
+			TreeColumn: 3,
+			TreeRow: 1,
+			
+			RequiredMission: 2,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 4,
+			Name: "Northern Swamps",
+			ImageName: "img29.png",
+			
+			MissionEvent: "nor_swamps.txt",
+			
+			TreeColumn: 4,
+			TreeRow: 1,
+			
+			RequiredMission: 3,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 5,
+			Name: "Invest in Flat Terrains",
+			ImageName: "img25.png",
+			
+			MissionEvent: "ita_flat_terr.txt",
+			
+			TreeColumn: 5,
+			TreeRow: 1,
+			
+			RequiredMission: 4,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 6,
+			Name: "Exploit the Pianura Padana",
+			ImageName: "img42.png",
+			
+			MissionEvent: "ita_expl_pad.txt",
+			
+			TreeColumn: 6,
+			TreeRow: 1,
+			
+			RequiredMission: 5,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+
+		{
+			ID: 7,
+			Name: "New Crop Rotation Systems",
+			ImageName: "crop_rotation.png",
+			
+			MissionEvent: "ita_crop_rot.txt",
+			
+			TreeColumn: 6,
+			TreeRow: 0,
+			
+			RequiredMission: 5,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 8,
+			Name: "The Northen Farms",
+			ImageName: "agr_ita2.png",
+			
+			MissionEvent: "ita_farm_nor.txt",
+			
+			TreeColumn: 7,
+			TreeRow: 1,
+			
+			RequiredMission: 6,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 9,
+			Name: "Population Growth",
+			ImageName: "famiglia.png",
+			
+			MissionEvent: "ita_pop.txt",
+			
+			TreeColumn: 7,
+			TreeRow: 0,
+			
+			RequiredMission: 7,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 10,
+			Name: "Industrialize Italy",
+			ImageName: "industria.png",
+			
+			MissionEvent: "ita_ind2.txt",
+			
+			TreeColumn: 1,
+			TreeRow: 2,
+			
+			RequiredMission: 0,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 11,
+			Name: "Invest in Northen Industrial Capabilities",
+			ImageName: "img33.png",
+			
+			MissionEvent: "ita_cap.txt",
+			
+			TreeColumn: 2,
+			TreeRow: 2,
+			
+			RequiredMission: 10,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 12,
+			Name: "The Steel Mills of Milan and Venice",
+			ImageName: "industria_5.png",
+			
+			MissionEvent: "ita_ste.txt",
+			
+			TreeColumn: 3,
+			TreeRow: 2,
+			
+			RequiredMission: 11,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 13,
+			Name: "The Model of the German Industry",
+			ImageName: "img39.png",
+			
+			MissionEvent: "ita_ger_mod.txt",
+			
+			TreeColumn: 4,
+			TreeRow: 2,
+			
+			RequiredMission: 12,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 14,
+			Name: "Invest in Venician Industries",
+			ImageName: "industria_3.png",
+			
+			MissionEvent: "ita_ven.txt",
+			
+			TreeColumn: 5,
+			TreeRow: 2,
+			
+			RequiredMission: 13,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 15,
+			Name: "A Tourist Attraction",
+			ImageName: "infrastructure_initiative.png",
+			
+			MissionEvent: "ita_tur.txt",
+			
+			TreeColumn: 6,
+			TreeRow: 2,
+			
+			RequiredMission: 14,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 16,
+			Name: "Swiss Cooperation",
+			ImageName: "ita-svi.png",
+			
+			MissionEvent: "ita_swi_cop.txt",
+			
+			TreeColumn: 4,
+			TreeRow: 3,
+			
+			RequiredMission: 10,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 17,
+			Name: "The Northen Railroad Network",
+			ImageName: "industria_2.png",
+			
+			MissionEvent: "ita_trains_nor.txt",
+			
+			TreeColumn: 5,
+			TreeRow: 3,
+			
+			RequiredMission: 16,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 18,
+			Name: "Gather Foreign Investments",
+			ImageName: "economy.png",
+			
+			MissionEvent: "ita_inv.txt",
+			
+			TreeColumn: 2,
+			TreeRow: 3,
+			
+			RequiredMission: 10,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 19,
+			Name: "Ask the British",
+			ImageName: "uk.png",
+			
+			MissionEvent: "ita_bri_inv.txt",
+			
+			TreeColumn: 3,
+			TreeRow: 3,
+			
+			RequiredMission: 18,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 20,
+			Name: "Ask the Germans",
+			ImageName: "germania.png",
+			
+			MissionEvent: "ita_ger_inv.txt",
+			
+			TreeColumn: 3,
+			TreeRow: 4,
+			
+			RequiredMission: 18,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 21,
+			Name: "Ask the French",
+			ImageName: "francia.png",
+			
+			MissionEvent: "ita_fra_inv.txt",
+			
+			TreeColumn: 3,
+			TreeRow: 5,
+			
+			RequiredMission: 18,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 22,
+			Name: "The Lacking South",
+			ImageName: "img85.png",
+			
+			MissionEvent: "ita_sou.txt",
+			
+			TreeColumn: 1,
+			TreeRow: 6,
+			
+			RequiredMission: 0,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 23,
+			Name: "Southern Modernization",
+			ImageName: "industria_4.png",
+			
+			MissionEvent: "ita_sou_mod.txt",
+			
+			TreeColumn: 2,
+			TreeRow: 6,
+			
+			RequiredMission: 22,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 24,
+			Name: "The Naples University",
+			ImageName: "img80.png",
+			
+			MissionEvent: "ita_nap.txt",
+			
+			TreeColumn: 3,
+			TreeRow: 6,
+			
+			RequiredMission: 23,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 25,
+			Name: "Southern Schools",
+			ImageName: "scuola.png",
+			
+			MissionEvent: "ita_sou_sch.txt",
+			
+			TreeColumn: 4,
+			TreeRow: 6,
+			
+			RequiredMission: 24,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 26,
+			Name: "Southern Agriculture",
+			ImageName: "realismo_2.png",
+			
+			MissionEvent: "ita_sou_agr.txt",
+			
+			TreeColumn: 2,
+			TreeRow: 8,
+			
+			RequiredMission: 22,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 27,
+			Name: "Southern Railroad Network",
+			ImageName: "progetto.png",
+			
+			MissionEvent: "ita_trains_sou.txt",
+			
+			TreeColumn: 3,
+			TreeRow: 7,
+			
+			RequiredMission: 26,
+			RequiredMission2: 23,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 28,
+			Name: "Southern Infrastructure",
+			ImageName: "treni_sud.png",
+			
+			MissionEvent: "ita_sou_inf.txt",
+			
+			TreeColumn: 4,
+			TreeRow: 7,
+			
+			RequiredMission: 27,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 29,
+			Name: "The Sicilian Farms",
+			ImageName: "img25.png",
+			
+			MissionEvent: "ita_sic_far.txt",
+			
+			TreeColumn: 3,
+			TreeRow: 8,
+			
+			RequiredMission: 26,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 30,
+			Name: "Sicilian Wine",
+			ImageName: "img88.png",
+			
+			MissionEvent: "ita_sic_wi.txt",
+			
+			TreeColumn: 5,
+			TreeRow: 8,
+			
+			RequiredMission: 31,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 31,
+			Name: "New Market Strategies",
+			ImageName: "economy.png",
+			
+			MissionEvent: "ita_sou_mar.txt",
+			
+			TreeColumn: 4,
+			TreeRow: 8,
+			
+			RequiredMission: 29,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+		
+		{
+			ID: 32,
+			Name: "Southern Farms",
+			ImageName: "img87.png",
+			
+			MissionEvent: "ita_sou_far.txt",
+			
+			TreeColumn: 5,
+			TreeRow: 9,
+			
+			RequiredMission: 31,
+			RequiredMission2: -1,
+			
+			AI: 5,
+		},
+    ],
+    Age_of_History: Mission
+}

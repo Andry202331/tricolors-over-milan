@@ -1,0 +1,29 @@
+id=bri_hol_response_ref
+title=The Dutch refuse!
+desc=The Dutch have rejected our proposal!
+
+image=west_africa.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=true
+
+trigger_and
+next_and
+exists_any=net
+next_and
+is_civ=uni_m
+next_and
+exact_day=31=3=1866
+next_and
+has_variable=net_ghana_ref
+trigger_and_end
+
+option_btn
+name=Well, ultimatum it is!
+ai=100
+add_variable2=net_m=bri_ghana_ult
+option_end

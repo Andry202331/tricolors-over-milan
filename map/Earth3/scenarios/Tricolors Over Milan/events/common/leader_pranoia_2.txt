@@ -1,0 +1,38 @@
+id=Leader_paranoia_2
+title=Our Leader is still pushing..
+desc=Our leader is still pushing for our entire Council to be removed
+even threathing to leave the country saying that his life is more worth.
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+
+image=Leaderkeepspushing.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+
+trigger_and
+random_chance=100.0
+trigger_and_end
+
+option_btn
+name=lets get rid of our council then.
+ai=75
+gold=-150
+kill_advisor=0
+kill_advisor=1
+kill_advisor=2
+kill_advisor=3
+province_unrest_all=55.4
+option_end
+
+option_btn
+name=let him leave.
+ai=25
+kill_ruler=true
+province_unrest_all=65.4
+option_end

@@ -1,0 +1,41 @@
+id=ita_swi_cop
+title=Italian-Swiss infrastracture projects
+desc=We can improve relations with our neighbours, starting with Switzerland, by connecting our road and rail networks, in return generating money from Swiss tourists.
+
+image=44.png
+
+show_in_missions=false
+mission_image=8
+
+only_once=true
+
+trigger_and
+next_and
+has_variable=Steel_mills
+next_and
+exists_any=swi
+next_and
+civs_are_not_at_war=ita_m=swi
+next_and
+civs_opinion_over=ita_m=swi=25.0
+next_and
+is_civ=ita_m
+trigger_and_end
+
+option_btn
+name=Infrastructures are the veins of nations!
+ai=100
+bonus_duration=5
+bonus_monthly_income=0.5
+bonus_growth_rate=0.5
+bonus_develop_infrastructure_cost=-15.0
+province_infrastructure_id=173=2
+province_infrastructure_id=366=2
+province_infrastructure_id=360=2
+province_infrastructure_id=174=2
+province_infrastructure_id=177=2
+province_infrastructure_id=150=2
+province_infrastructure_id=6498=2
+province_infrastructure_id=7361=2
+add_variable=Italian_swiss_connection
+option_end

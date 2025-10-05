@@ -1,0 +1,38 @@
+id=Leader_murdered_by_friend
+title=Leader murdered by friend!
+desc=our leader was murdered in cold blood and it is suspected that one of his friends is behind it.
+
+
+image=leadermurderedbyfriend.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+random_chance=0.7
+trigger_and_end
+
+option_btn
+name=he shall be Executed!
+ai=50
+gold=-350
+kill_ruler=true
+province_unrest_all=-23.6
+option_end
+
+option_btn
+name=Maybe its for the best.
+ai=25
+kill_ruler=true
+province_unrest_all=45.0
+option_end
+
+option_btn
+name=lets Blame it on an advisor.
+ai=25
+kill_ruler=true
+kill_advisor=1
+province_unrest_all=2.4
+option_end

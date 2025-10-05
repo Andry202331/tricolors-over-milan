@@ -1,0 +1,57 @@
+id=ger_colonies_big
+title=Scouting settlement spots
+desc=We need to decide where exactly we want to set in. (WARNING: if there are already other nation's settlements in one of the regions, the choice is a dead end and you will not be able to continue.)
+
+image=ger_col_big.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ger
+next_and
+is_civ=ger_m
+next_and
+has_variable=big_ambition_colonies
+trigger_and_end
+
+option_btn
+name=Togo first
+ai=20
+run_event=ger_togo
+option_end
+
+option_btn
+name=Camerun first
+ai=20
+run_event=ger_camerun
+option_end
+
+option_btn
+name=Namibia first
+ai=15
+run_event=ger_namibia
+option_end
+
+option_btn
+name=Tanzania first
+ai=15
+run_event=ger_zanz
+option_end
+
+option_btn
+name=Congo first
+ai=15
+run_event=ger_congo
+option_end
+
+option_btn
+name=Kenya first
+ai=15
+run_event=ger_kenya
+option_end

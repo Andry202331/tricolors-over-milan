@@ -1,0 +1,37 @@
+id=ger_namibia
+title=Our first colonial port
+desc=Namibia was chosen to be our first colonial settlement, a controversial decision to say the least due to the vast desert environment that can be seen from the coast. Will it even be a profitable colony?  Our explorers need your guidance to pick the best possible place to start a trading port and eventually expand it into a settlement.
+
+image=namibia.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=ger
+next_and
+is_civ=ger_m
+trigger_and_end
+
+option_btn
+name=We will settle North
+ai=33
+annex=3882
+option_end
+
+option_btn
+name=We will settle in the center
+ai=34
+annex=3878
+option_end
+
+option_btn
+name=We will settle South
+ai=33
+annex=3876
+option_end

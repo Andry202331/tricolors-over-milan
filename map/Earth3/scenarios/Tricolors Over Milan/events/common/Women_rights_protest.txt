@@ -1,0 +1,35 @@
+id=Women_rights_protest
+title=protest for women rights..
+desc=Protest for women rights have taken place across the country.
+
+image=Women_rights_protest_1.png
+
+show_in_missions=true
+mission_image=1
+
+only_once=false
+possible_to_run=true
+popUp=false
+
+trigger_and
+next_and
+random_chance=0.7
+trigger_and_end
+
+option_btn
+name=Address the problem
+ai=50
+legacy=150
+gold=-950
+province_unrest_all=-15.0
+bonus_duration=8
+bonus_monthly_legacy=0.30
+option_end
+
+option_btn
+name=Crack down on the protesters
+ai=50
+legacy=-150
+province_unrest_all=15.00
+option_end
+

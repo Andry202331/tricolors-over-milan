@@ -1,0 +1,30 @@
+id=den_surrender
+title=Germans and Danes clash at Hamburg!
+desc=Our military is outmatched by Germany in every field, should we really escalate the situation?
+
+image=dan_parl.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=den
+next_and
+is_civ=den
+next_and
+civs_are_not_at_war=ger_m=den
+next_and
+exact_day=11=7=1864
+trigger_and_end
+
+option_btn
+name=Maybe it's best...
+ai=100
+add_variable2=ger_m=danish_surrender
+run_event=amsterdam_treaty
+option_end

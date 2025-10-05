@@ -1,0 +1,27 @@
+id=conf_war_start
+title=The American Civil War
+desc=x
+
+image=house_divided.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=conf
+next_and
+is_civ=conf
+next_and
+exact_day=27=8=1861
+trigger_and_end
+
+option_btn
+name=x
+ai=100
+add_new_army=0=6=0=6=0=6=0=6=0=6=0=6=0=6=0=6=0=6=0=6=0=6=0=6=0=6=0=6=0=6=1=5=1=5=1=5=1=5=1=5=1=5=1=5=1=5=1=5=1=5=1=5=1=5=1=5=1=5=1=5=2=5=2=5=2=5=2=5=2=5=2=5=2=5=2=5=2=5=2=5=2=5=2=5=4=3=4=3=4=3=4=3=4=3
+option_end

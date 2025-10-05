@@ -1,0 +1,44 @@
+id=fra_spa_compensation
+title=The Spanish denounce our annexation of Morocco!
+desc=The decision to attack Morocco has caused uproar between other European nations. The first to complain is Spain, which says that they demand at least a compensation in terms of territory in Morocco. How should we respond?
+
+image=3.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=spa
+next_and
+is_civ=fra_p
+next_and
+has_variable=spa_complain
+trigger_and_end
+
+option_btn
+name=We can give them the northern coast
+ai=60
+annex_by_civ_from_civ=spa_m=fra_p=2913;6666;2915;7301;2916;2917;2918;6664;
+relations_change=fra=spa_m=15
+add_variable=spain_complaint_resolved
+option_end
+
+option_btn
+name=They can get a connection between Ceuta and Melilla
+ai=30
+annex_by_civ_from_civ=spa_m=fra_p=2913;6666;2915;7301;2916;
+relations_change=fra=spa_m=-10
+add_variable=spain_complaint_resolved
+option_end
+
+option_btn
+name=They will get nothing at all!
+ai=10
+relations_set=spa_m=fra=-50
+add_variable=spain_complaint_resolved
+option_end

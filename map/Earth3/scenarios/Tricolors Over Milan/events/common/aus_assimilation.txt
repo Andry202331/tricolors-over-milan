@@ -1,0 +1,40 @@
+id=aus_assimilation
+title=The multi-ethnicity problem
+desc=By choosing to assimilate we also need to consider the sheer task of what we are trying to do. The empire is very populous, and most of it will be angry with this decision.
+
+image=austria_ungheria.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=atr
+next_and
+is_civ=atr_m
+next_and
+has_variable=less_autonomy
+next_and
+exact_day=1=9=1861
+trigger_and_end
+
+option_btn
+name=Assimilate gradually (WIP)
+ai=50
+option_end
+
+option_btn
+name=Assimilate normally (WIP)
+ai=25
+option_end
+
+option_btn
+name=Cancel assimilation
+ai=25
+run_event=aus_autonomy
+add_variable=more_autonomy
+option_end

@@ -1,0 +1,23 @@
+id=Leader_Resings
+title=Leader Resigns!
+desc=Amid rising pressure and political challenges, the nation's leader has officially resigned. With their departure, uncertainty looms—will 
+stability be restored, or is the country heading toward crisis?
+
+image=Leader_resings.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+civ_government_is=0
+random_chance=15.5
+civ_capital_unrest_over=45.54
+trigger_and_end
+
+option_btn
+name=Why?...
+ai=100
+kill_ruler=true
+option_end

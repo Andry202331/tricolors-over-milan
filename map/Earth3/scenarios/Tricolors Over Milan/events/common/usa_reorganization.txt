@@ -1,0 +1,37 @@
+id=usa_reorganization
+title=Territorial reorganization
+desc=How should we reorganize the Southern states?
+
+image=TOM_logo.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+is_civ=usa
+next_and
+exists_any=usa
+trigger_and_end
+
+option_btn
+name=Unite the Carolina states, unite Alabama and Mississipi and expand Louisiana
+ai=25
+
+option_end
+
+option_btn
+name=Unite the Carolina states and leave the rest as it is
+ai=25
+
+option_end
+
+option_btn
+name=Leave everything the same
+ai=50
+
+option_end

@@ -1,0 +1,49 @@
+id=fra_defeat_unrest
+title=Our defeat in the Franco-Prussian war of 1859
+desc=It's been 2 years since our defeat in the Franco-Prussian war of 1859, yet the people have not simply forgotten it. The people have organized a strike and are revolting in some regions, what should we do?
+
+image=fra_unrest.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=true
+popUp=true
+possible_to_run=false
+
+trigger_and
+next_and
+exists_any=fra
+next_and
+is_civ=fra
+trigger_and_end
+
+option_btn
+name=Promise revenge
+ai=65
+add_advisor=3
+advantage_points=1
+legacy=50
+relations_change=fra=ger=-5
+bonus_duration=2
+bonus_monthly_income=-15
+bonus_corruption=5.0
+bonus_recruitment_time=-15
+bonus_recruit_army_cost=-20
+bonus_military_buildings_cost=-20
+bonus_increase_manpower_cost=-7.25
+option_end
+
+option_btn
+name=Promise prosperity
+ai=35
+add_advisor=1
+add_non_aggression=fra=ger_m
+relations_change=fra=ger=5
+advantage_points=1
+legacy=-50
+bonus_duration=2
+bonus_monthly_income=10
+bonus_inflation=-5.0
+bonus_corruption=-5.0
+option_end
