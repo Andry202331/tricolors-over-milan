@@ -2,7 +2,7 @@
 	Name: "Earth",
 	Author: "Łukasz Jakowski",
 	
-	NumOfProvinces: 13893,
+	NumOfProvinces: 13894,
 ,
 	DefaultMapScale: 2,
 	ExtraMapScale: 2.5,
