@@ -1,0 +1,56 @@
+id=Democratic_Elections_Merchant_Repuplic
+title=Elections!
+desc=The Democratic Elections are up for president lets see who wins!
+
+
+image=Election_Day.png
+
+show_in_missions=false
+mission_image=2
+
+only_once=false
+
+trigger_and
+civ_government_is=07
+random_chance=25.5
+trigger_and_end
+
+option_btn
+name=Thats how a Nation must be.
+ai=50
+kill_ruler_chance=50.0
+option_end
+
+option_btn
+name=Lets Support the opposition.
+ai=15
+kill_ruler_chance=70.5
+option_end
+
+
+option_btn
+name=Lets Sway it for the incumbent.
+ai=10
+kill_ruler_chance=0.0
+option_end
+
+option_btn
+name=Lets Sway it For Communists.
+change_ideology=3
+ai=10
+kill_ruler_chance=100.0
+option_end
+
+option_btn
+name=Lets Sway it for the Fascists.
+change_ideology=4
+ai=5
+kill_ruler_chance=100.0
+option_end
+
+option_btn
+name=Lets Sway it For Nationalist Socialists.
+change_ideology=14
+ai=10
+kill_ruler_chance=100.0
+option_end

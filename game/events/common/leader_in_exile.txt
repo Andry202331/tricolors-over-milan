@@ -1,0 +1,48 @@
+id=RulerinExile
+title=our Pepole want our leader to be exiled!
+desc=Because of the current Situation of our Country, the pepole want the leader to be exiled and thrown out the Country...we could try to find an work around but there is still a Change our pepole win...or we can just crack down on them.
+
+mission_desc=rulerExile
+
+image=takedownr.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+civ_capital_unrest_over=6.0
+random_chance=0.7
+trigger_and_end
+
+option_btn
+name=its time for a new Ruler he must be exiled.
+legacy=-75
+gold=-100
+ai=25
+kill_ruler=true
+option_end
+
+option_btn
+name=our leader must be hung for his Actions...
+legacy=-175
+gold=-25
+kill_ruler=true
+ai=25
+option_end
+
+option_btn
+name=Maybe there is an work around?
+kill_ruler_chance=50.0
+gold=-243
+ai=25
+option_end
+
+option_btn
+name=since when do the pepole decide that?
+province_unrest_all=56.7
+gold=-93
+ai=25
+option_end

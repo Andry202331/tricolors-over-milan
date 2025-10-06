@@ -1,0 +1,35 @@
+id=Monetary_Policy_1
+title=Monetary Policy
+desc=We don't know how we've done it, but we have taken on a large amount of debt. However, radical economists have proposed printing more money in order to pay off our debts. While it would be beneficial in the short term, there are concerns that come with this reckless policy. On the other hand we are in dire need of funds.
+
+image=1026.png
+
+show_in_missions=true
+mission_image=0.png
+
+only_once=false
+possible_to_run=true
+popUp=false
+
+trigger_and
+next_and
+civ_gold_below=-10000
+next_and
+random_chance=80.98
+trigger_and_end
+
+option_btn
+name=Print Money.
+ai=50
+gold=50000
+legacy=-9000
+inflation=90.00
+legacy_monthly=-8.00
+bonus_duration=30
+option_end
+
+option_btn
+name=Lets rather not...
+ai=50
+option_end
+

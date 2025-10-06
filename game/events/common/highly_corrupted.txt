@@ -1,0 +1,32 @@
+id=curropted council
+title=our council is highly corrupted!
+desc=it has come to our pepoles ears that our council is highly corrupted. the pepole demand for all  members to be kicked out. should we listen to our pepole?
+mission_desc=highly corrupted
+
+image=highly corrupted.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+random_chance=50.5
+civ_inflation_over=1.75
+trigger_and_end
+
+option_btn
+name=lets give the pepole what they want.
+ai=50
+kill_advisor=1
+kill_advisor=2
+kill_advisor=3
+kill_advisor=4
+option_end
+
+option_btn
+name=Rather lets just Keep them.
+province_unrest_all=50.0
+ai=50
+option_end

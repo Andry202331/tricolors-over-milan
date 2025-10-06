@@ -1032,7 +1032,7 @@
 	p: 119
 },
 {
-	Name: "Siracusa",
+	Name: "Syracuse",
 	x: 9086,
 	y: 2983,
 	p: 116
@@ -1110,7 +1110,7 @@
 	p: 264
 },
 {
-	Name: "Napoli",
+	Name: "Naples",
 	x: 9039,
 	y: 2743,
 	p: 196
@@ -1206,7 +1206,7 @@
 	p: 210
 },
 {
-	Name: "Roma",
+	Name: "Rome",
 	x: 8954,
 	y: 2678,
 	p: 6881
@@ -1398,7 +1398,7 @@
 	p: 2294
 },
 {
-	Name: "Firenze",
+	Name: "Florence",
 	x: 8893,
 	y: 2553,
 	p: 158
@@ -1428,7 +1428,7 @@
 	p: 160
 },
 {
-	Name: "Genova",
+	Name: "Genoa",
 	x: 8780,
 	y: 2508,
 	p: 142
@@ -1500,7 +1500,7 @@
 	p: 163
 },
 {
-	Name: "Padova",
+	Name: "Padua",
 	x: 8924,
 	y: 2441,
 	p: 2297
@@ -1542,7 +1542,7 @@
 	p: 141
 },
 {
-	Name: "Torino",
+	Name: "Turin",
 	x: 8720,
 	y: 2465,
 	p: 148
@@ -1596,7 +1596,7 @@
 	p: 3681
 },
 {
-	Name: "Milano",
+	Name: "Milan",
 	x: 8793,
 	y: 2438,
 	p: 151
@@ -1668,7 +1668,7 @@
 	p: 172
 },
 {
-	Name: "Mantova",
+	Name: "Mantua",
 	x: 8869,
 	y: 2455,
 	p: 169
@@ -4524,13 +4524,13 @@
 	p: 640
 },
 {
-	Name: "Danzig",
+	Name: "Gdańsk",
 	x: 9255,
 	y: 1764,
 	p: 400
 },
 {
-	Name: "Gdingen",
+	Name: "Gdynia",
 	x: 9247,
 	y: 1749,
 	p: 401
@@ -4866,7 +4866,7 @@
 	p: 673
 },
 {
-	Name: "Breslau",
+	Name: "Wrocław",
 	x: 9176,
 	y: 2025,
 	p: 669
@@ -4980,7 +4980,7 @@
 	p: 1284
 },
 {
-	Name: "Posen",
+	Name: "Poznań",
 	x: 9171,
 	y: 1922,
 	p: 3006
@@ -5028,7 +5028,7 @@
 	p: 569
 },
 {
-	Name: "Stettin",
+	Name: "Szczecin",
 	x: 9053,
 	y: 1840,
 	p: 570
@@ -5082,7 +5082,7 @@
 	p: 405
 },
 {
-	Name: "Bromberg",
+	Name: "Bydgoszcz",
 	x: 9221,
 	y: 1865,
 	p: 3002
@@ -5190,7 +5190,7 @@
 	p: 492
 },
 {
-	Name: "Königsberg",
+	Name: "Kaliningrad",
 	x: 9343,
 	y: 1733,
 	p: 3616
@@ -10014,7 +10014,7 @@
 	p: 446
 },
 {
-	Name: "Venezia",
+	Name: "Venice",
 	x: 8947,
 	y: 2445,
 	p: 165
@@ -10356,49 +10356,49 @@
 	p: 3222
 },
 {
-	Name: "Tunisi",
+	Name: "Tunis",
 	x: 8845,
 	y: 2974,
 	p: 2242
 },
 {
-	Name: "Biserta",
+	Name: "Bizerte",
 	x: 8825,
 	y: 2948,
 	p: 2237
 },
 {
-	Name: "Ammameto",
+	Name: "Hammamet",
 	x: 8863,
 	y: 3003,
 	p: 2243
 },
 {
-	Name: "Alchefe",
+	Name: "El Kef",
 	x: 8770,
 	y: 3020,
 	p: 6925
 },
 {
-	Name: "Beia",
+	Name: "Beja",
 	x: 8793,
 	y: 2982,
 	p: 2238
 },
 {
-	Name: "Susa",
+	Name: "Sousse",
 	x: 8862,
 	y: 3044,
 	p: 4692
 },
 {
-	Name: "Monastero",
+	Name: "Monastir",
 	x: 8871,
 	y: 3051,
 	p: 2239
 },
 {
-	Name: "Siface",
+	Name: "Sfax",
 	x: 8868,
 	y: 3111,
 	p: 2236
@@ -10410,25 +10410,25 @@
 	p: 4732
 },
 {
-	Name: "Cairuana",
+	Name: "Kairouan",
 	x: 8837,
 	y: 3054,
 	p: 2241
 },
 {
-	Name: "Casserina",
+	Name: "Kasserine",
 	x: 8774,
 	y: 3084,
 	p: 1417
 },
 {
-	Name: "Mactaro",
+	Name: "Maktar",
 	x: 8795,
 	y: 3039,
 	p: 3016
 },
 {
-	Name: "Alfaso",
+	Name: "El Fahs",
 	x: 8828,
 	y: 3007,
 	p: 2244
@@ -10440,67 +10440,67 @@
 	p: 4775
 },
 {
-	Name: "Senedo",
+	Name: "Sened",
 	x: 8805,
 	y: 3122,
 	p: 2235
 },
 {
-	Name: "Tozuro",
+	Name: "Tozeur",
 	x: 8741,
 	y: 3163,
 	p: 1408
 },
 {
-	Name: "Duso",
+	Name: "Douz",
 	x: 8785,
 	y: 3192,
 	p: 4774
 },
 {
-	Name: "Menzele Abibo",
+	Name: "Menzel Habib",
 	x: 8811,
 	y: 3150,
 	p: 1403
 },
 {
-	Name: "Rimatugo",
+	Name: "Rjim Maatoug",
 	x: 8735,
 	y: 3201,
 	p: 1404
 },
 {
-	Name: "Tiereto",
+	Name: "Tieret",
 	x: 8840,
 	y: 3340,
 	p: 4783
 },
 {
-	Name: "Tatauina",
+	Name: "Tataouine",
 	x: 8855,
 	y: 3226,
 	p: 4733
 },
 {
-	Name: "Lorzoto",
+	Name: "Lorzot",
 	x: 8849,
 	y: 3296,
 	p: 4773
 },
 {
-	Name: "Alborma",
+	Name: "Al Borma",
 	x: 8796,
 	y: 3300,
 	p: 4772
 },
 {
-	Name: "Cosaro Ghilano",
+	Name: "Ksar Ghilane",
 	x: 8816,
 	y: 3223,
 	p: 3015
 },
 {
-	Name: "Zarzi",
+	Name: "Zarzis",
 	x: 8884,
 	y: 3191,
 	p: 1405
@@ -19482,7 +19482,7 @@
 	p: 1368
 },
 {
-	Name: "Misurata",
+	Name: "Misrata",
 	x: 9082,
 	y: 3263,
 	p: 1362
@@ -40992,7 +40992,7 @@
 	p: 6923
 },
 {
-	Name: "Legnano",
+	Name: "Legnago",
 	x: 8893,
 	y: 2456,
 	p: 6908

@@ -1,0 +1,30 @@
+id=hyperinflation_1509
+title=hyperinflation
+desc=Due to our recent monetary decisions, we have caused our currency's value to plummet!
+
+image=1027.png
+
+show_in_missions=true
+mission_image=0.png
+
+only_once=false
+possible_to_run=true
+popUp=false
+
+trigger_and
+next_and
+civ_gold_below=-10000
+next_and
+random_chance=80.98
+trigger_and_end
+
+option_btn
+name=There is nothing we can do...
+ai=100
+gold_monthly_income=-20
+inflation=200
+gold=-1500
+province_economy_all=-80
+price_change_up=100
+option_end
+

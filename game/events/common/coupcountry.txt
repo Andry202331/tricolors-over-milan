@@ -1,0 +1,30 @@
+id=countrycoup
+title=Coup!
+desc=a coup in the capital from the Military Forces. they cutdown the entire goverment and Our leaer has been killed… our entire council was killed by These Monsters...
+
+image=coupcountry.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+random_chance=46.9
+civ_capital_unrest_over=100.9
+civ_capital_income_below=0.2
+trigger_and_end
+
+option_btn
+name=These Monsters...
+ai=100
+kill_ruler_chance=75.0
+kill_advisor=0
+kill_advisor=1
+kill_advisor=2
+kill_advisor=3
+province_unrest_all=70.5
+province_unrest_capital=550.9
+gold=-1500
+option_end

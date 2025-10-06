@@ -1,0 +1,37 @@
+id=assasinationattempt
+title=Striked at our leader!
+desc=an assasination attempt was made on the life of Our leader… he has fell in a coma we dont have Information if he survive...our Nation is in Panic and the pepole demand revange...
+
+image=assasinatio attempt.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+random_chance=4.0
+civ_capital_unrest_over=4.0
+trigger_and_end
+
+option_btn
+name=lets hope for the best...
+ai=50
+kill_ruler_chance=50.0
+province_unrest_all=35.0
+option_end
+
+option_btn
+name=lets use all our power to save him!
+ai=50
+province_unrest_all=15.0
+kill_ruler_chance=25.0
+option_end
+
+option_btn
+name=lets take this Change to Sabotage but we can be caught tho…
+ai=50
+province_unrest_all=15.0
+kill_ruler_chance=75.0
+option_end

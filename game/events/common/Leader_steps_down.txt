@@ -1,0 +1,38 @@
+id=Leader_steps_Down
+title=Leader Steps Down!.
+desc=In a surprising move, the leader has chosen to step down from their position, citing. With their departure, 
+the future of the leadership remains uncertain. Who will rise to fill the void, and how will our nation move forward?
+
+
+image=Leader_steps_down.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+random_chance=30.5
+civ_capital_unrest_over=35.9
+trigger_and_end
+
+option_btn
+name=Is Sad to see the leader go, but maybe it is for the best.
+ai=50
+legacy=75
+kill_ruler=true
+option_end
+
+option_btn
+name=Finally can a new leader take the Lead!
+ai=25
+province_unrest_all=2.7
+kill_ruler=true
+option_end
+
+option_btn
+name=We need to try to Get our leader to Stay!
+ai=25
+kill_ruler_chance=65.5
+legacy=-75
+option_end

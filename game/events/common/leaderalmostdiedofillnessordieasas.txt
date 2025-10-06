@@ -1,0 +1,40 @@
+id=almostleaderIllnessorDisease
+title=leader About to die!
+desc=we have Information that our leader will die of ilness or disease but there is hope he can be saved!
+
+image=almostdiedofillnessd.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+civ_inflation_over=1.0
+random_chance=1.1
+trigger_and_end
+
+option_btn
+name=there is Nothing we can do...
+gold=-20
+legacy=-30
+ai=25
+kill_ruler=true
+option_end
+
+option_btn
+name=lets try to save him but not to much.
+gold=-250
+legacy=-200
+ai=50
+kill_ruler_chance=70.8
+option_end
+
+option_btn
+name=lets try our best to save him!
+gold=-737
+legacy=-25
+ai=25
+kill_ruler_chance=20.7
+option_end

@@ -1,0 +1,28 @@
+id=Leaderstageddeath
+title=Our leader wants to stage his death.
+desc=Our leader has stated to his Cabinet that he wants to Flew the responsibility of leading the Nation, 
+so he has suggested to stage his own dead to live a free life.
+
+image=Leaderstagedeath.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+random_chance=0.3
+trigger_and_end
+
+option_btn
+name=So Shall it be.
+ai=75
+kill_ruler=true
+option_end
+
+option_btn
+name=Maybe he can be swayed.
+ai=25
+kill_ruler_chance=45
+option_end

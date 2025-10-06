@@ -1,0 +1,30 @@
+id=Leader_missing
+title=our leader is missing!
+desc=Our leader has been gone for a few days now...
+
+only_once=false
+
+image=Mssing_leader.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+random_chance=0.6
+trigger_and_end
+
+option_btn
+name=he must be found!
+province_unrest_all=-6.4
+ai=50
+option_end
+
+option_btn
+name=this is the perfect Change for a new leader.
+ai=50
+kill_ruler=true
+province_unrest_all=35.4
+option_end

@@ -1,0 +1,91 @@
+id=Democratic_Reforms_Mon
+title=Democratic reforms!
+desc=The pepole push for a demoratic reforms in our nation!
+
+image=1028.png
+
+show_in_missions=False
+mission_image=1
+
+only_once=false
+possible_to_run=true
+popUp=false
+
+trigger_and
+next_and
+civ_government_is=01
+next_and
+year_over=-508
+random_chance=9.6
+civ_capital_unrest_over=10.0
+trigger_and_end
+
+option_btn
+name=So shall it be, a standard democracy it shall become.
+ai=15
+gold=-750
+legacy=500
+kill_ruler=true
+province_unrest_all=-50.0
+change_ideology=0
+option_end
+
+option_btn
+name=So shall it be, a republic it shall become.
+ai=10
+gold=-750
+legacy=500
+kill_ruler=true
+province_unrest_all=-50.0
+change_ideology=05
+option_end
+
+option_btn
+name=So shall it be, a Constitutional monarchy it shall become.
+ai=20
+gold=-750
+legacy=500
+kill_ruler=true
+province_unrest_all=-50.0
+change_ideology=02
+option_end
+
+option_btn
+name=So shall it be, a Presidential Republic it shall become.
+ai=10
+gold=-750
+legacy=500
+province_unrest_all=-50.0
+year_over=-508
+change_ideology=06
+kill_ruler=true
+option_end
+
+option_btn
+name=So shall it be, a Merchant Republic it shall become.
+ai=5
+gold=-750
+legacy=500
+kill_ruler=true
+change_ideology=07
+province_unrest_all=-50.0
+option_end
+
+option_btn
+name=So shall it be, a Parliamentary Republic it shall become.
+ai=15
+gold=-750
+legacy=500
+kill_ruler=true
+province_unrest_all=-50.0
+change_ideology=08
+option_end
+
+option_btn
+name=Crack down on the pepole.
+ai=25
+gold=-500
+legacy=-500
+province_unrest_all=-5.0
+option_end
+

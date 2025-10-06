@@ -1,0 +1,22 @@
+id=Leaderstroke
+title=Our leader has suffered a stroke!
+desc=our Leader has just suffered a Stroke we are not sure if he make it.
+mission_desc=our leader just had a stroke
+
+image=leaderstroke.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+random_chance=0.4
+trigger_and_end
+
+option_btn
+name=lets hope for the best.
+ai=100
+kill_ruler_chance=50.0
+option_end

@@ -1,0 +1,29 @@
+id=Economic_Boom_1
+title=Economic Boom!
+desc=Due to our sound policies as well as stable conditions, our economy is on track to perform better than expected.
+
+image=1025.png
+
+show_in_missions=true
+mission_image=0.png
+
+only_once=false
+possible_to_run=true
+popUp=false
+
+trigger_and
+next_and
+random_chance=1.6
+civ_gold_over=15000
+trigger_and_end
+
+option_btn
+name=A win for our Country.
+ai=100
+advantage_points=3
+gold=5000
+legacy=500
+inflation=-9.00
+gold_monthly_income=9.76
+option_end
+

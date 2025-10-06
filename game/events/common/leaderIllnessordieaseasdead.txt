@@ -1,0 +1,24 @@
+id=leaderIllnessorDisease
+title=leader died of Illness or Disease!
+desc=we have Information that out leader just died of Illness or Disease.
+
+image=leaderIllness.png
+
+show_in_missions=true
+mission_image=2
+
+only_once=false
+
+trigger_and
+next_and
+civ_inflation_over=19.62
+random_chance=1.2
+trigger_and_end
+
+option_btn
+name=Sad that it has to come to this.
+gold=-50
+legacy=-5
+ai=50
+kill_ruler=true
+option_end
